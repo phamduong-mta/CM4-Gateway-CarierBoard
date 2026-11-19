@@ -1,0 +1,47 @@
+(version 1)
+# Luật theo năng lực JLCPCB 6 lớp (cần đối chiếu lại bảng năng lực hiện hành ở giai đoạn 2).
+# QUY ƯỚC DỰ ÁN: không viết luật theo Reference của linh kiện.
+
+(rule "jlc_pth_hole_clearance_outer"
+  (layer outer)
+  (condition "A.Pad_Type == 'Through-hole' || B.Pad_Type == 'Through-hole'")
+  (constraint hole_clearance (min 0.28mm)))
+
+(rule "nguon_dong_lon_rong_toi_thieu"
+  (condition "A.NetClass == 'PWR_HV' && A.NetName != '/Power/SW_5V'")
+  (constraint track_width (min 0.6mm)))
+
+# SW_5V: nhánh chính chân SW -> cuộn cảm do script đặt sẵn rộng 1.0-1.5 mm; nhánh tụ bootstrap (C109) chỉ nạp dòng cổng.
+(rule "nut_sw_5v_rong_toi_thieu"
+  (condition "A.NetName == '/Power/SW_5V'")
+  (constraint track_width (min 0.3mm)))
+
+(rule "nut_sw_buck_rong_toi_thieu"
+  (condition "A.NetName == '/Power/SW_3V3' || A.NetName == '/Power/SW_1V0'")
+  (constraint track_width (min 0.5mm)))
+
+(rule "jlc_pth_hole_clearance_inner"
+  (layer inner)
+  (condition "A.Pad_Type == 'Through-hole' || B.Pad_Type == 'Through-hole'")
+  (constraint hole_clearance (min 0.30mm)))
+
+# Lệch độ dài chỉ xét TRONG từng cặp vi sai.
+(rule "pcie_90R_do_lech_trong_cap"
+  (condition "A.NetClass == 'PCIE_90R'")
+  (constraint skew (max 0.1mm) (within_diff_pairs)))
+
+(rule "usb_90R_do_lech_trong_cap"
+  (condition "A.NetClass == 'USB_90R'")
+  (constraint skew (max 1.0mm) (within_diff_pairs)))
+
+# MDI: hai hàng chân so le của jack HR911130A lệch nhau 2.54 mm nên lệch trong cặp tới ~2.5 mm là cố hữu
+# (≈17 ps, không đáng kể so với chu kỳ ký hiệu 8 ns của 1000BASE-T). USB 2.0 HS: 1 mm ≈ 7 ps so với UI 2083 ps.
+(rule "mdi_100R_do_lech_trong_cap"
+  (condition "A.NetClass == 'MDI_100R'")
+  (constraint skew (max 3.0mm) (within_diff_pairs)))
+
+# Net class của cặp vi sai khai báo khe hở 0.12 mm để hai dây trong cặp (khe danh định 0.15/0.18 mm) không bị báo
+# ở các góc vát; với MỌI net khác, cặp vi sai phải cách tối thiểu 0.11 mm (bộ đi dây giữ 0.15 mm khi còn chỗ).
+(rule "cap_vi_sai_cach_net_khac"
+  (condition "(A.NetClass == 'PCIE_90R' || A.NetClass == 'USB_90R' || A.NetClass == 'MDI_100R' || A.NetClass == 'USB_FS') && !A.isCoupledDiffPair()")
+  (constraint clearance (min 0.11mm)))

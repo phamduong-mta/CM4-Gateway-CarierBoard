@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "cm4-gateway")(type "KiCad")(uri "${KIPRJMOD}/lib/cm4-gateway.pretty")(options "")(descr "Footprint rieng cua du an"))
+)

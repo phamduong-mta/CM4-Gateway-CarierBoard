@@ -1,0 +1,9442 @@
+(kicad_sch
+	(version 20260306)
+	(generator "cm4gw_gen")
+	(generator_version "10.0")
+	(uuid "48dc5de9-de2f-5350-962c-e96bb0f89e00")
+	(paper "A3")
+	(title_block
+		(title "Cổng LAN: RTL8111H + RJ45 (dùng 4 lần)")
+		(date "2026-11-18")
+		(rev "B")
+		(company "cm4-gateway")
+		(comment 1 "CM4 Security Gateway — Carrier Board")
+	)
+	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762)
+						(xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762)
+						(xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:Crystal_GND24"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Y"
+				(at 3.175 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Crystal_GND24"
+				(at 3.175 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Four pin crystal, GND on pins 2 and 4"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property private "KLC_S3.3" "The rectangle is not a symbol body but a graphical element"
+				(at 0 -12.7 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property private "KLC_S4.1" "Some pins are on 50mil grid to make the symbol small"
+				(at 0 -15.24 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Crystal_GND24_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.286)
+						(xy -2.54 3.556)
+						(xy 2.54 3.556)
+						(xy 2.54 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0)
+						(xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.286)
+						(xy -2.54 -3.556)
+						(xy 2.54 -3.556)
+						(xy 2.54 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -1.27)
+						(xy -2.032 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81)
+						(xy 0 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0)
+						(xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -1.27)
+						(xy 2.032 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crystal_GND24_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.27)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.27)
+					(hide yes)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "cm4gw:HR911130A"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -10.16 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "HR911130A"
+				(at -10.16 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RJ45 Gigabit co bien ap va LED"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HR911130A_1_1"
+				(rectangle
+					(start -10.16 12.7)
+					(end 10.16 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -12.7 10.16 0)
+					(length 2.54)
+					(name "MDI0+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 7.62 0)
+					(length 2.54)
+					(name "MDI0-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "MDI1+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "MDI1-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "MDI2+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "MDI2-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "MDI3+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -7.62 0)
+					(length 2.54)
+					(name "MDI3-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -12.7 0)
+					(length 2.54)
+					(name "CT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 10.16 180)
+					(length 2.54)
+					(name "LED_G_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 7.62 180)
+					(length 2.54)
+					(name "LED_G_K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "LED_Y_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "LED_Y_K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "CHS_GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -7.62 180)
+					(length 2.54)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "cm4gw:PWR_+3V3_SW"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3_SW"
+				(at 0 2.6 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ky hieu nguon: net toan cuc \"+3V3_SW\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_+3V3_SW_0_1"
+				(polyline
+					(pts
+						(xy 0 0)
+						(xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27)
+						(xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PWR_+3V3_SW_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "cm4gw:PWR_CHASSIS"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "CHASSIS"
+				(at 0 -4.2 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ky hieu nguon: net toan cuc \"CHASSIS\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_CHASSIS_0_1"
+				(polyline
+					(pts
+						(xy 0 0)
+						(xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27)
+						(xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27)
+						(xy -1.905 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27)
+						(xy -0.635 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27)
+						(xy 0.635 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PWR_CHASSIS_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "cm4gw:PWR_GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -4.2 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ky hieu nguon: net toan cuc \"GND\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0)
+						(xy 0 -1.27)
+						(xy 1.27 -1.27)
+						(xy 0 -2.54)
+						(xy -1.27 -1.27)
+						(xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PWR_GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "cm4gw:RTL8111H"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -12.7 26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "RTL8111H"
+				(at -12.7 -29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "PCIe -> Gigabit Ethernet (MAC+PHY), LDO 1.0V noi, QFN-32"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RTL8111H_1_1"
+				(rectangle
+					(start -12.7 25.4)
+					(end 12.7 -27.94)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -15.24 22.86 0)
+					(length 2.54)
+					(name "HSIP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 20.32 0)
+					(length 2.54)
+					(name "HSIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -15.24 17.78 0)
+					(length 2.54)
+					(name "HSOP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -15.24 15.24 0)
+					(length 2.54)
+					(name "HSON"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 10.16 0)
+					(length 2.54)
+					(name "REFCLK_P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 7.62 0)
+					(length 2.54)
+					(name "REFCLK_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 2.54 0)
+					(length 2.54)
+					(name "PERSTB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 0 0)
+					(length 2.54)
+					(name "CLKREQB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -2.54 0)
+					(length 2.54)
+					(name "ISOLATEB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -5.08 0)
+					(length 2.54)
+					(name "LANWAKEB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -10.16 0)
+					(length 2.54)
+					(name "CKXTAL1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -12.7 0)
+					(length 2.54)
+					(name "CKXTAL2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -15.24 0)
+					(length 2.54)
+					(name "RSET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -20.32 0)
+					(length 2.54)
+					(name "VDDREG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -22.86 0)
+					(length 2.54)
+					(name "AVDD33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -25.4 0)
+					(length 2.54)
+					(name "AVDD33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 22.86 180)
+					(length 2.54)
+					(name "MDIP0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 20.32 180)
+					(length 2.54)
+					(name "MDIN0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 17.78 180)
+					(length 2.54)
+					(name "MDIP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 15.24 180)
+					(length 2.54)
+					(name "MDIN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 12.7 180)
+					(length 2.54)
+					(name "MDIP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 10.16 180)
+					(length 2.54)
+					(name "MDIN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 7.62 180)
+					(length 2.54)
+					(name "MDIP3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 5.08 180)
+					(length 2.54)
+					(name "MDIN3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "LED0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -2.54 180)
+					(length 2.54)
+					(name "LED1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -5.08 180)
+					(length 2.54)
+					(name "LED2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -10.16 180)
+					(length 2.54)
+					(name "REGOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -12.7 180)
+					(length 2.54)
+					(name "DVDD10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -15.24 180)
+					(length 2.54)
+					(name "AVDD10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -17.78 180)
+					(length 2.54)
+					(name "AVDD10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -20.32 180)
+					(length 2.54)
+					(name "AVDD10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -25.4 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0)
+						(xy 0 1.27)
+						(xy -1.016 1.905)
+						(xy 0 2.54)
+						(xy 1.016 1.905)
+						(xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 20.32 20.32)
+		(end 254 177.8)
+		(stroke
+			(width 0.15)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "7de592f7-b151-546f-aaf9-f413dc75f7e9")
+	)
+	(text "A. RTL8111H — PCIe ↔ Gigabit Ethernet"
+		(exclude_from_sim no)
+		(at 21.82 24.52 0)
+		(effects
+			(font
+				(size 2.2 2.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc549e18-62c0-5dd7-a007-6f8bab50bc8f")
+	)
+	(symbol
+		(lib_id "cm4gw:RTL8111H")
+		(at 127 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4bab16e7-9e71-5db5-ab8b-b9d82434c502")
+		(property "Reference" "U601"
+			(at 114.3 49.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "RTL8111H-CG"
+			(at 114.3 105.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_4x4mm_P0.4mm_EP2.65x2.65mm"
+			(at 127 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCIe -> Gigabit Ethernet (MAC+PHY), LDO 1.0V noi, QFN-32"
+			(at 127 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2761340"
+			(at 127 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RTL8111H-CG"
+			(at 127 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Group" "ic"
+			(at 127 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "U601")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "U701")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "U801")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "U901")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 111.76 53.34)
+			(xy 109.22 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43738791-df98-5a3a-9957-0fafd65017fb")
+	)
+	(hierarchical_label "RX_N"
+		(shape passive)
+		(at 109.22 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0c51baab-1159-5ad0-b5a9-4cb4ba1f439b")
+	)
+	(wire
+		(pts
+			(xy 111.76 55.88)
+			(xy 109.22 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fadd89a3-aafe-5d53-996e-3157f7425407")
+	)
+	(hierarchical_label "RX_P"
+		(shape passive)
+		(at 109.22 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c4ff9381-00f7-5eb2-aa50-8fc3df0a3952")
+	)
+	(wire
+		(pts
+			(xy 111.76 58.42)
+			(xy 109.22 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c02e6c1d-87be-580c-9c89-b4f8d1ebe910")
+	)
+	(label "HSO_P"
+		(at 109.22 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "98b94aee-c45d-5731-a1ff-d6059edae11b")
+	)
+	(wire
+		(pts
+			(xy 111.76 60.96)
+			(xy 109.22 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a217a2ce-315d-5aca-ae0b-a1638f479002")
+	)
+	(label "HSO_N"
+		(at 109.22 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "95d46ccd-0eaf-5f84-8510-850c8ee242a2")
+	)
+	(wire
+		(pts
+			(xy 111.76 66.04)
+			(xy 109.22 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34543731-b19d-5653-85d7-04fa4f40e616")
+	)
+	(hierarchical_label "CLK_P"
+		(shape passive)
+		(at 109.22 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5632a32a-dddb-58bc-ba90-f1391fad9818")
+	)
+	(wire
+		(pts
+			(xy 111.76 68.58)
+			(xy 109.22 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25efda8d-37b6-53ef-a671-664b9ae5f41a")
+	)
+	(hierarchical_label "CLK_N"
+		(shape passive)
+		(at 109.22 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2395a56c-3125-51d6-b818-2ddb2211583c")
+	)
+	(wire
+		(pts
+			(xy 111.76 73.66)
+			(xy 109.22 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "667e457e-a0c7-5c04-94ac-2046f9b064bb")
+	)
+	(hierarchical_label "PERST_N"
+		(shape passive)
+		(at 109.22 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "081459c9-2848-595c-9153-5b1b898529eb")
+	)
+	(wire
+		(pts
+			(xy 111.76 76.2)
+			(xy 109.22 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be81906f-28b1-591b-849a-173b8b602d47")
+	)
+	(label "CLKREQ_N"
+		(at 109.22 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5e366acf-59a3-5cd5-864b-218227ea9fa7")
+	)
+	(wire
+		(pts
+			(xy 111.76 78.74)
+			(xy 109.22 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed8ad8fe-c688-58ae-a19f-686eba41b233")
+	)
+	(label "ISOLATE_N"
+		(at 109.22 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "66808c2e-c421-587f-b9ad-c443df0eef50")
+	)
+	(wire
+		(pts
+			(xy 111.76 81.28)
+			(xy 109.22 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf226300-39eb-5213-98f0-1d77cd9f5184")
+	)
+	(label "LANWAKE_N"
+		(at 109.22 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6ffdae2f-754e-5ae3-a33b-5cf1baac3a50")
+	)
+	(wire
+		(pts
+			(xy 111.76 86.36)
+			(xy 109.22 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d688cc1-5834-5c31-931b-82c762e8daa7")
+	)
+	(label "XTAL1"
+		(at 109.22 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "54210f6b-08fb-529c-aa00-deeb1b0d5fc7")
+	)
+	(wire
+		(pts
+			(xy 111.76 88.9)
+			(xy 109.22 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba14507b-11d7-5b24-a3e3-c1a24b615338")
+	)
+	(label "XTAL2"
+		(at 109.22 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7f6e67f9-11f0-511e-857a-ead1de06fea4")
+	)
+	(wire
+		(pts
+			(xy 111.76 91.44)
+			(xy 109.22 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4efdd80d-f469-5afb-bd21-244c354ebf61")
+	)
+	(label "RSET"
+		(at 109.22 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e8913dbb-f34a-567a-af65-8088b8de899c")
+	)
+	(wire
+		(pts
+			(xy 111.76 96.52)
+			(xy 109.22 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3585eada-6128-5a55-acb2-063460143c81")
+	)
+	(symbol
+		(lib_id "cm4gw:PWR_+3V3_SW")
+		(at 109.22 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "0698b4ca-289e-5eee-9a8a-83b23ce5fccb")
+		(property "Reference" "#PWR6001"
+			(at 109.22 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_SW"
+			(at 103.68 96.52 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ky hieu nguon: net toan cuc \\\"+3V3_SW\\\""
+			(at 109.22 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 109.22 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 109.22 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "#PWR6001")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "#PWR7001")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "#PWR8001")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "#PWR9001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 111.76 99.06)
+			(xy 109.22 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b0b3b67-f78a-5f71-a4d1-81bfb2d34ece")
+	)
+	(symbol
+		(lib_id "cm4gw:PWR_+3V3_SW")
+		(at 109.22 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "27a83262-4c18-59ca-9688-cb56c12872d3")
+		(property "Reference" "#PWR6002"
+			(at 109.22 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_SW"
+			(at 103.68 99.06 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ky hieu nguon: net toan cuc \\\"+3V3_SW\\\""
+			(at 109.22 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 109.22 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 109.22 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "#PWR6002")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "#PWR7002")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "#PWR8002")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "#PWR9002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 111.76 101.6)
+			(xy 109.22 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5be2b663-8af3-5236-9c91-e2f541d02e2d")
+	)
+	(symbol
+		(lib_id "cm4gw:PWR_+3V3_SW")
+		(at 109.22 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "07ae3155-1bcf-5edd-8d3d-faacadb2da1d")
+		(property "Reference" "#PWR6003"
+			(at 109.22 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_SW"
+			(at 103.68 101.6 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ky hieu nguon: net toan cuc \\\"+3V3_SW\\\""
+			(at 109.22 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 109.22 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 109.22 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "#PWR6003")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "#PWR7003")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "#PWR8003")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "#PWR9003")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 142.24 53.34)
+			(xy 144.78 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aef75a34-fcb3-520a-97d8-5268c3992487")
+	)
+	(label "MDI0_P"
+		(at 144.78 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "31223a4e-c0fc-5048-b224-adf7a0b8d0da")
+	)
+	(wire
+		(pts
+			(xy 142.24 55.88)
+			(xy 144.78 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e30f3c54-00ee-5cd6-a672-2c541741dfa4")
+	)
+	(label "MDI0_N"
+		(at 144.78 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d3e2425a-4a3d-5c89-b146-b061a77845fe")
+	)
+	(wire
+		(pts
+			(xy 142.24 58.42)
+			(xy 144.78 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0a268a6-0209-51b7-9024-a361589b7286")
+	)
+	(label "MDI1_P"
+		(at 144.78 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "216d35b7-753e-5071-92dd-9c6b0c0fb09e")
+	)
+	(wire
+		(pts
+			(xy 142.24 60.96)
+			(xy 144.78 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4bade93-5e3d-5fd1-93f3-dc67fc769756")
+	)
+	(label "MDI1_N"
+		(at 144.78 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "71046e9b-5782-5103-ba56-1238433fd185")
+	)
+	(wire
+		(pts
+			(xy 142.24 63.5)
+			(xy 144.78 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60e7b629-05bf-5531-ae80-6d9335357ddc")
+	)
+	(label "MDI2_P"
+		(at 144.78 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd8cd77e-cfe2-5134-9d48-42c299b3a197")
+	)
+	(wire
+		(pts
+			(xy 142.24 66.04)
+			(xy 144.78 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87b8a61c-9508-5e9f-8b05-0f000d50c748")
+	)
+	(label "MDI2_N"
+		(at 144.78 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "28631f41-61de-5c16-a397-bb4f3a3913eb")
+	)
+	(wire
+		(pts
+			(xy 142.24 68.58)
+			(xy 144.78 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3535aa2-6adc-53b4-b7f7-f9123ce2d684")
+	)
+	(label "MDI3_P"
+		(at 144.78 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "02279844-721e-5b76-9f46-4d75430a7b00")
+	)
+	(wire
+		(pts
+			(xy 142.24 71.12)
+			(xy 144.78 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "254b8cc6-d6d4-55c9-adab-a1387cfab4d6")
+	)
+	(label "MDI3_N"
+		(at 144.78 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c03f0c89-31f2-5f3d-a9cb-a55b64380d39")
+	)
+	(no_connect
+		(at 142.24 76.2)
+		(uuid "0ff9d8c5-7c11-50a6-8f61-87c250e44b49")
+	)
+	(wire
+		(pts
+			(xy 142.24 78.74)
+			(xy 144.78 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "098f64ba-2737-5909-bdff-fd8a14773d11")
+	)
+	(label "LED_Y_K"
+		(at 144.78 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a43cd642-e148-5efb-aabf-543b77ae8d0e")
+	)
+	(wire
+		(pts
+			(xy 142.24 81.28)
+			(xy 144.78 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2292a704-15f3-5677-bb4f-146c391dd586")
+	)
+	(label "LED_G_K"
+		(at 144.78 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07c75aba-ae2d-5bf5-b0e7-3dd9f904a57d")
+	)
+	(wire
+		(pts
+			(xy 142.24 86.36)
+			(xy 144.78 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdc70b39-b51d-54b6-8e15-e26536a362b3")
+	)
+	(label "V1P0"
+		(at 144.78 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ca4eec5-cd92-5404-ac1f-dc8f719f43c0")
+	)
+	(wire
+		(pts
+			(xy 142.24 88.9)
+			(xy 144.78 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0c44e36-9c84-50ad-b921-dc93e5459851")
+	)
+	(label "V1P0"
+		(at 144.78 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1cee33ad-3475-5bdc-a9c6-f6bd14514167")
+	)
+	(wire
+		(pts
+			(xy 142.24 91.44)
+			(xy 144.78 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71d5b5e2-3c49-524b-8936-410ef6503cd3")
+	)
+	(label "V1P0"
+		(at 144.78 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c889cc4c-452b-5bf4-886d-61eb48197eba")
+	)
+	(wire
+		(pts
+			(xy 142.24 93.98)
+			(xy 144.78 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52570a17-179e-54d4-8dc0-b5eb0f23554c")
+	)
+	(label "V1P0"
+		(at 144.78 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e9eba3af-2a72-5780-9fea-24f0ccdfa2d5")
+	)
+	(wire
+		(pts
+			(xy 142.24 96.52)
+			(xy 144.78 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae136536-799f-5510-9ef8-d9430de6b437")
+	)
+	(label "V1P0"
+		(at 144.78 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5104e06b-9cf5-5ce6-b4c7-c043f839b254")
+	)
+	(wire
+		(pts
+			(xy 142.24 101.6)
+			(xy 144.78 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eee34f6-2bb6-57f0-ab5c-3b67ca0f5dda")
+	)
+	(symbol
+		(lib_id "cm4gw:PWR_GND")
+		(at 144.78 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "929219b2-8f30-59bd-bf79-77bc23d98d46")
+		(property "Reference" "#PWR6004"
+			(at 144.78 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 150.24 101.6 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ky hieu nguon: net toan cuc \\\"GND\\\""
+			(at 144.78 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 144.78 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 144.78 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "#PWR6004")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "#PWR7004")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "#PWR8004")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "#PWR9004")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 45.72 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40c7fd06-76f7-5977-a6cc-b195d7577cbe")
+		(property "Reference" "C601"
+			(at 45.72 114.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "100nF"
+			(at 45.72 119.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 45.72 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF 16V X7R"
+			(at 45.72 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 45.72 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 45.72 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Group" "txc"
+			(at 45.72 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "C601")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "C701")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "C801")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "C901")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 41.91 116.84)
+			(xy 39.37 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d962ffc0-2f25-58db-91b2-9bf38d553a7e")
+	)
+	(label "HSO_P"
+		(at 39.37 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "24aa5363-c609-5489-9886-adaef3edf00a")
+	)
+	(wire
+		(pts
+			(xy 49.53 116.84)
+			(xy 52.07 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2ed2320-5911-5337-a243-06c3e7ed02bf")
+	)
+	(hierarchical_label "TX_P"
+		(shape passive)
+		(at 52.07 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "580403db-d31a-58d0-804e-8f9501640e62")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 45.72 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6cf78dab-1409-51dd-98c5-e4972ed05742")
+		(property "Reference" "C602"
+			(at 45.72 122.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "100nF"
+			(at 45.72 126.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 45.72 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF 16V X7R"
+			(at 45.72 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 45.72 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 45.72 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Group" "txc"
+			(at 45.72 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "C602")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "C702")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "C802")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "C902")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 41.91 124.46)
+			(xy 39.37 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99e8fd32-34f9-58f1-aaa6-497cfbdaa49f")
+	)
+	(label "HSO_N"
+		(at 39.37 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e75d41f8-be8d-573c-b4d3-4ed28fcab0b1")
+	)
+	(wire
+		(pts
+			(xy 49.53 124.46)
+			(xy 52.07 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5185270f-7cfc-5d86-a931-3d5dc4fe8653")
+	)
+	(hierarchical_label "TX_N"
+		(shape passive)
+		(at 52.07 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e9a51411-7c0e-5b37-9095-9b5535fb06d1")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 45.72 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a40fb04-cd6f-560d-920d-5a9f3d7b3a26")
+		(property "Reference" "R601"
+			(at 45.72 129.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 45.72 134.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 45.72 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 45.72 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 45.72 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
+			(at 45.72 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Group" "strap"
+			(at 45.72 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "R601")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "R701")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "R801")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "R901")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 41.91 132.08)
+			(xy 39.37 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd6dc4a6-8bee-5ebc-b341-89c366de171a")
+	)
+	(symbol
+		(lib_id "cm4gw:PWR_+3V3_SW")
+		(at 39.37 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "dacf368c-abc4-53fb-8aea-6c615f895b1d")
+		(property "Reference" "#PWR6005"
+			(at 39.37 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_SW"
+			(at 33.83 132.08 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ky hieu nguon: net toan cuc \\\"+3V3_SW\\\""
+			(at 39.37 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 39.37 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 39.37 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "#PWR6005")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "#PWR7005")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "#PWR8005")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "#PWR9005")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 49.53 132.08)
+			(xy 52.07 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d0729f5-a35b-5ad0-a512-f2d709f5e7fe")
+	)
+	(label "CLKREQ_N"
+		(at 52.07 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ee018b24-1c4e-578e-8808-4fb06c7b8f31")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 45.72 139.7 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82d17e06-7b28-51b6-969d-0517fdb743c4")
+		(property "Reference" "R602"
+			(at 45.72 137.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 45.72 142 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 45.72 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 45.72 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 45.72 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
+			(at 45.72 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Group" "strap"
+			(at 45.72 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "R602")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "R702")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "R802")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "R902")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 41.91 139.7)
+			(xy 39.37 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "177cf335-eb6b-57a1-b101-9ff5fc190366")
+	)
+	(symbol
+		(lib_id "cm4gw:PWR_+3V3_SW")
+		(at 39.37 139.7 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce0d6b3d-d0c8-5416-a71f-0e25336ec2b9")
+		(property "Reference" "#PWR6006"
+			(at 39.37 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_SW"
+			(at 33.83 139.7 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ky hieu nguon: net toan cuc \\\"+3V3_SW\\\""
+			(at 39.37 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 39.37 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 39.37 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "#PWR6006")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "#PWR7006")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "#PWR8006")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "#PWR9006")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 49.53 139.7)
+			(xy 52.07 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c4b2c5f-d6ed-5789-952a-fe1392efaf4a")
+	)
+	(label "LANWAKE_N"
+		(at 52.07 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "acd9eba8-150f-5bf1-acde-462d18a3128b")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 45.72 147.32 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f36a5384-272c-5064-acbe-798b4241dc05")
+		(property "Reference" "R603"
+			(at 45.72 145.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "1k"
+			(at 45.72 149.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 45.72 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 45.72 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 45.72 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1001TCE"
+			(at 45.72 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Group" "strap"
+			(at 45.72 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "R603")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "R703")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "R803")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "R903")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 41.91 147.32)
+			(xy 39.37 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50e2839a-4c93-52eb-bf6e-2da74241f7d0")
+	)
+	(symbol
+		(lib_id "cm4gw:PWR_+3V3_SW")
+		(at 39.37 147.32 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "417580ba-afbf-588b-b79e-29afa83029db")
+		(property "Reference" "#PWR6007"
+			(at 39.37 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_SW"
+			(at 33.83 147.32 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ky hieu nguon: net toan cuc \\\"+3V3_SW\\\""
+			(at 39.37 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 39.37 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 39.37 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "#PWR6007")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "#PWR7007")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "#PWR8007")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "#PWR9007")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 49.53 147.32)
+			(xy 52.07 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a78e9a66-8849-5ce2-91c2-9932e7a588f7")
+	)
+	(label "ISOLATE_N"
+		(at 52.07 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "34aaf582-d280-554d-94b3-d4451ee9a372")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 45.72 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01fa0fbd-4fae-5ad0-89cb-5243e80e1728")
+		(property "Reference" "R604"
+			(at 45.72 152.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "15k"
+			(at 45.72 157.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 45.72 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 45.72 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25756"
+			(at 45.72 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1502TCE"
+			(at 45.72 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Group" "strap"
+			(at 45.72 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "R604")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "R704")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "R804")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "R904")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 41.91 154.94)
+			(xy 39.37 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "442e6eb3-d208-53e2-b7ff-1a0e2415bfeb")
+	)
+	(label "ISOLATE_N"
+		(at 39.37 154.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "41ee3f70-81c1-58db-a0d8-5ad010b59d67")
+	)
+	(wire
+		(pts
+			(xy 49.53 154.94)
+			(xy 52.07 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24042154-0e42-5992-b976-6517f087a5d9")
+	)
+	(symbol
+		(lib_id "cm4gw:PWR_GND")
+		(at 52.07 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "36c53224-d92d-5d2a-ac16-d47c0153bdb7")
+		(property "Reference" "#PWR6008"
+			(at 52.07 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 57.53 154.94 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ky hieu nguon: net toan cuc \\\"GND\\\""
+			(at 52.07 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 52.07 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 52.07 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "#PWR6008")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "#PWR7008")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "#PWR8008")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "#PWR9008")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 45.72 162.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "073c6eb4-be8b-514e-ab5e-198a12ac77d1")
+		(property "Reference" "R605"
+			(at 45.72 160.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "2.49k"
+			(at 45.72 164.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 45.72 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 45.72 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25884"
+			(at 45.72 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF2491TCE"
+			(at 45.72 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Group" "strap"
+			(at 45.72 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "R605")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "R705")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "R805")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "R905")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 41.91 162.56)
+			(xy 39.37 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0df89d1-3e2f-5ac7-9899-39d97fc6ec4a")
+	)
+	(label "RSET"
+		(at 39.37 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b7b5e1e2-f1fb-5153-b455-3c24b77e6e01")
+	)
+	(wire
+		(pts
+			(xy 49.53 162.56)
+			(xy 52.07 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "540798d0-f4cc-5a65-bb57-22461583d207")
+	)
+	(symbol
+		(lib_id "cm4gw:PWR_GND")
+		(at 52.07 162.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "fee2c593-8396-552d-84f2-82df35a017c7")
+		(property "Reference" "#PWR6009"
+			(at 52.07 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 57.53 162.56 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ky hieu nguon: net toan cuc \\\"GND\\\""
+			(at 52.07 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 52.07 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 52.07 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "#PWR6009")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "#PWR7009")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "#PWR8009")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "#PWR9009")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Crystal_GND24")
+		(at 127 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf301a19-2c4b-552e-b3f1-72679a774752")
+		(property "Reference" "Y601"
+			(at 130.175 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "25MHz 12pF"
+			(at 130.175 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+			(at 127 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+			(at 127 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C9006"
+			(at 127 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "X322525MOB4SI"
+			(at 127 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Group" "xtal"
+			(at 127 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "Y601")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "Y701")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "Y801")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "Y901")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 123.19 137.16)
+			(xy 120.65 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18ce399c-76ad-5ab0-ad28-e3c6c92c3646")
+	)
+	(label "XTAL1"
+		(at 120.65 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ae477b0d-fe7d-54d3-8bfd-a01f637e9cfa")
+	)
+	(wire
+		(pts
+			(xy 130.81 137.16)
+			(xy 133.35 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0d3cf59-a80b-5b30-baba-dfa5a6e35cd9")
+	)
+	(label "XTAL2"
+		(at 133.35 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eeac05e9-d9d8-5a8b-8ef0-a896f8399c9f")
+	)
+	(wire
+		(pts
+			(xy 127 142.24)
+			(xy 127 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7683ab36-6b7e-5890-adc0-fd69c40bbba7")
+	)
+	(symbol
+		(lib_id "cm4gw:PWR_GND")
+		(at 127 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "22be5c8b-2647-5e16-9764-852e2a6ab853")
+		(property "Reference" "#PWR6010"
+			(at 127 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 148.98 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ky hieu nguon: net toan cuc \\\"GND\\\""
+			(at 127 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 127 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 127 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "#PWR6010")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "#PWR7010")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "#PWR8010")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "#PWR9010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 127 142.24)
+			(xy 127 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46921186-c840-5595-9ac5-019dddb9dcb1")
+	)
+	(symbol
+		(lib_id "cm4gw:PWR_GND")
+		(at 127 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "a409aa32-1b50-5efe-9ef0-90626f55862b")
+		(property "Reference" "#PWR6011"
+			(at 127 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 148.98 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ky hieu nguon: net toan cuc \\\"GND\\\""
+			(at 127 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 127 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 127 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "#PWR6011")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "#PWR7011")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "#PWR8011")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "#PWR9011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 116.84 152.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e06fc905-951e-5a5d-8ca7-8601b61cf066")
+		(property "Reference" "C603"
+			(at 116.84 150.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "18pF"
+			(at 116.84 154.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 116.84 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "18pF 50V C0G"
+			(at 116.84 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C307443"
+			(at 116.84 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05C180JB5NNNC"
+			(at 116.84 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Group" "xtal"
+			(at 116.84 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "C603")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "C703")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "C803")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "C903")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 113.03 152.4)
+			(xy 110.49 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a0e01d5-1657-5f35-b596-09a4f1f7c9c2")
+	)
+	(label "XTAL1"
+		(at 110.49 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f07b6834-0a7a-547b-9647-47523df10d0a")
+	)
+	(wire
+		(pts
+			(xy 120.65 152.4)
+			(xy 123.19 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e6616a2-666b-5fb9-ac59-6b6d2e95a174")
+	)
+	(symbol
+		(lib_id "cm4gw:PWR_GND")
+		(at 123.19 152.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "21e63ad7-b7c7-5d3a-9d18-824e0a453ca6")
+		(property "Reference" "#PWR6012"
+			(at 123.19 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.65 152.4 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ky hieu nguon: net toan cuc \\\"GND\\\""
+			(at 123.19 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 123.19 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 123.19 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "#PWR6012")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "#PWR7012")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "#PWR8012")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "#PWR9012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 116.84 160.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c77bdd39-2c4a-54fe-a61e-d2115c1a2422")
+		(property "Reference" "C604"
+			(at 116.84 157.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "18pF"
+			(at 116.84 162.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 116.84 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "18pF 50V C0G"
+			(at 116.84 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C307443"
+			(at 116.84 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05C180JB5NNNC"
+			(at 116.84 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Group" "xtal"
+			(at 116.84 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "C604")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "C704")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "C804")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "C904")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 113.03 160.02)
+			(xy 110.49 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50039a28-2605-5bb5-8926-c956294d2d90")
+	)
+	(label "XTAL2"
+		(at 110.49 160.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "92112a24-6928-5ac1-be30-f29a26bba58a")
+	)
+	(wire
+		(pts
+			(xy 120.65 160.02)
+			(xy 123.19 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d33af127-59ac-5504-8a8a-2a000c71168a")
+	)
+	(symbol
+		(lib_id "cm4gw:PWR_GND")
+		(at 123.19 160.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc8520ca-1145-5134-b528-e0af34c9dc1a")
+		(property "Reference" "#PWR6013"
+			(at 123.19 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.65 160.02 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ky hieu nguon: net toan cuc \\\"GND\\\""
+			(at 123.19 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 123.19 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 123.19 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "#PWR6013")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "#PWR7013")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "#PWR8013")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "#PWR9013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 203.2 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61284ee6-811c-52ba-8b4b-da1a65720527")
+		(property "Reference" "C605"
+			(at 203.2 109.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 203.2 114.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 203.2 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.7uF 16V X5R"
+			(at 203.2 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19666"
+			(at 203.2 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A475KO8NNNC"
+			(at 203.2 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Group" "v10"
+			(at 203.2 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "C605")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "C705")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "C805")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "C905")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 199.39 111.76)
+			(xy 196.85 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7254229-4402-5ad6-a34e-2d5856d336bc")
+	)
+	(label "V1P0"
+		(at 196.85 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "abf5b5af-f476-5ad0-97b4-9b2d95956fc5")
+	)
+	(wire
+		(pts
+			(xy 207.01 111.76)
+			(xy 209.55 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f7009c0-5ceb-5154-9c91-a9f775c546bc")
+	)
+	(symbol
+		(lib_id "cm4gw:PWR_GND")
+		(at 209.55 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "04c5c0dc-5571-5e1d-a08c-4d149e90d61a")
+		(property "Reference" "#PWR6014"
+			(at 209.55 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.01 111.76 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ky hieu nguon: net toan cuc \\\"GND\\\""
+			(at 209.55 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 209.55 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 209.55 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "#PWR6014")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "#PWR7014")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "#PWR8014")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "#PWR9014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 203.2 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e146991-d81c-5641-8a0b-73c00ea88bc0")
+		(property "Reference" "C606"
+			(at 203.2 117.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "100nF"
+			(at 203.2 121.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 203.2 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF 16V X7R"
+			(at 203.2 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 203.2 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 203.2 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Group" "v10"
+			(at 203.2 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "C606")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "C706")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "C806")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "C906")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 199.39 119.38)
+			(xy 196.85 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "782e556a-9e96-511e-a647-ddcdcca59775")
+	)
+	(label "V1P0"
+		(at 196.85 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a2552499-7c11-5a29-9127-ea46972a892d")
+	)
+	(wire
+		(pts
+			(xy 207.01 119.38)
+			(xy 209.55 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fc5c444-36dc-5f0d-899e-632de81534dd")
+	)
+	(symbol
+		(lib_id "cm4gw:PWR_GND")
+		(at 209.55 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3d2229a-ab26-52a7-adf8-d3a0fd4431fb")
+		(property "Reference" "#PWR6015"
+			(at 209.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.01 119.38 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ky hieu nguon: net toan cuc \\\"GND\\\""
+			(at 209.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 209.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 209.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "#PWR6015")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "#PWR7015")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "#PWR8015")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "#PWR9015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 203.2 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c67ac73-ac9a-53dd-9f07-8c3c3bcc12a2")
+		(property "Reference" "C607"
+			(at 203.2 124.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "100nF"
+			(at 203.2 129.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 203.2 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF 16V X7R"
+			(at 203.2 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 203.2 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 203.2 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Group" "v10"
+			(at 203.2 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "C607")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "C707")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "C807")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "C907")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 199.39 127)
+			(xy 196.85 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "744dc669-db58-548b-ba4d-a3e9ec076050")
+	)
+	(label "V1P0"
+		(at 196.85 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "356801ca-68a2-5b89-8262-5a568cf3f36e")
+	)
+	(wire
+		(pts
+			(xy 207.01 127)
+			(xy 209.55 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f53a742-1a0e-5588-9c59-c58d158e66db")
+	)
+	(symbol
+		(lib_id "cm4gw:PWR_GND")
+		(at 209.55 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "1313be54-0275-5b61-9290-aff140cbfbcc")
+		(property "Reference" "#PWR6016"
+			(at 209.55 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.01 127 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ky hieu nguon: net toan cuc \\\"GND\\\""
+			(at 209.55 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 209.55 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 209.55 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "#PWR6016")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "#PWR7016")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "#PWR8016")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "#PWR9016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 203.2 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce438d5a-57d2-5a60-879e-7271e94e3784")
+		(property "Reference" "C608"
+			(at 203.2 132.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "100nF"
+			(at 203.2 136.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 203.2 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF 16V X7R"
+			(at 203.2 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 203.2 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 203.2 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Group" "v10"
+			(at 203.2 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "C608")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "C708")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "C808")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "C908")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 199.39 134.62)
+			(xy 196.85 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a18a75a-b0a0-527a-a297-efdb777a3c21")
+	)
+	(label "V1P0"
+		(at 196.85 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4baa55a8-5b39-5cab-8e83-116b4d3954ae")
+	)
+	(wire
+		(pts
+			(xy 207.01 134.62)
+			(xy 209.55 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d0a00d2-c761-50df-bdbf-dd1621675ccf")
+	)
+	(symbol
+		(lib_id "cm4gw:PWR_GND")
+		(at 209.55 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5cec042-3e83-5dee-a7b4-18499cd2acca")
+		(property "Reference" "#PWR6017"
+			(at 209.55 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.01 134.62 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ky hieu nguon: net toan cuc \\\"GND\\\""
+			(at 209.55 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 209.55 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 209.55 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "#PWR6017")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "#PWR7017")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "#PWR8017")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "#PWR9017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 203.2 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a9cb97aa-dc9d-53fb-a78c-22dc434406b7")
+		(property "Reference" "C609"
+			(at 203.2 139.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "100nF"
+			(at 203.2 144.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 203.2 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF 16V X7R"
+			(at 203.2 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 203.2 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 203.2 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Group" "v10"
+			(at 203.2 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "C609")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "C709")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "C809")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "C909")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 199.39 142.24)
+			(xy 196.85 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "292f4ad0-3da6-51d9-bf1a-fe3dc0042a84")
+	)
+	(label "V1P0"
+		(at 196.85 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8785ee2b-e18b-50be-b908-7413a9872a1b")
+	)
+	(wire
+		(pts
+			(xy 207.01 142.24)
+			(xy 209.55 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5188cb12-d2b9-5b81-a092-0d6a64111a50")
+	)
+	(symbol
+		(lib_id "cm4gw:PWR_GND")
+		(at 209.55 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "800573b0-262c-5209-be07-8c64a0686813")
+		(property "Reference" "#PWR6018"
+			(at 209.55 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.01 142.24 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ky hieu nguon: net toan cuc \\\"GND\\\""
+			(at 209.55 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 209.55 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 209.55 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "#PWR6018")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "#PWR7018")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "#PWR8018")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "#PWR9018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 203.2 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a927605b-90b6-5ffd-a040-fa14d76fc911")
+		(property "Reference" "C610"
+			(at 203.2 33.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 203.2 37.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 203.2 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.7uF 16V X5R"
+			(at 203.2 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19666"
+			(at 203.2 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A475KO8NNNC"
+			(at 203.2 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Group" "v33"
+			(at 203.2 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "C610")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "C710")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "C810")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "C910")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 199.39 35.56)
+			(xy 196.85 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8886f0a-4994-59ad-8c47-4ea3d247ec1d")
+	)
+	(symbol
+		(lib_id "cm4gw:PWR_+3V3_SW")
+		(at 196.85 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4bcc32d-aa0f-5f59-8016-9577c31f6951")
+		(property "Reference" "#PWR6019"
+			(at 196.85 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_SW"
+			(at 191.31 35.56 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ky hieu nguon: net toan cuc \\\"+3V3_SW\\\""
+			(at 196.85 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 196.85 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 196.85 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "#PWR6019")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "#PWR7019")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "#PWR8019")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "#PWR9019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 207.01 35.56)
+			(xy 209.55 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9db71e8-add8-53b2-b7e5-daba27fc2a73")
+	)
+	(symbol
+		(lib_id "cm4gw:PWR_GND")
+		(at 209.55 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "12454a51-ec83-576e-8701-d00bdfbd2807")
+		(property "Reference" "#PWR6020"
+			(at 209.55 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.01 35.56 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ky hieu nguon: net toan cuc \\\"GND\\\""
+			(at 209.55 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 209.55 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 209.55 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "#PWR6020")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "#PWR7020")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "#PWR8020")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "#PWR9020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 203.2 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3fb3e06-b728-5d1e-97a2-43c947cb1a07")
+		(property "Reference" "C611"
+			(at 203.2 40.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "100nF"
+			(at 203.2 45.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 203.2 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF 16V X7R"
+			(at 203.2 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 203.2 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 203.2 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Group" "v33"
+			(at 203.2 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "C611")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "C711")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "C811")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "C911")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 199.39 43.18)
+			(xy 196.85 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67e5cb07-f0bb-52e3-9a8d-76e2a2abca55")
+	)
+	(symbol
+		(lib_id "cm4gw:PWR_+3V3_SW")
+		(at 196.85 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "58e293aa-b8d7-5756-8582-cc3f54c74f60")
+		(property "Reference" "#PWR6021"
+			(at 196.85 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_SW"
+			(at 191.31 43.18 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ky hieu nguon: net toan cuc \\\"+3V3_SW\\\""
+			(at 196.85 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 196.85 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 196.85 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "#PWR6021")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "#PWR7021")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "#PWR8021")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "#PWR9021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 207.01 43.18)
+			(xy 209.55 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fda8ef2-77a6-57a4-a294-242fe5c1bf14")
+	)
+	(symbol
+		(lib_id "cm4gw:PWR_GND")
+		(at 209.55 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ad8d146-9558-57f6-80b9-02f7a4c415d6")
+		(property "Reference" "#PWR6022"
+			(at 209.55 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.01 43.18 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ky hieu nguon: net toan cuc \\\"GND\\\""
+			(at 209.55 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 209.55 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 209.55 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "#PWR6022")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "#PWR7022")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "#PWR8022")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "#PWR9022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 203.2 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ad5852e-e082-5a74-96b7-95f4ea084d35")
+		(property "Reference" "C612"
+			(at 203.2 48.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "100nF"
+			(at 203.2 53.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 203.2 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF 16V X7R"
+			(at 203.2 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 203.2 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 203.2 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Group" "v33"
+			(at 203.2 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "C612")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "C712")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "C812")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "C912")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 199.39 50.8)
+			(xy 196.85 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98c40084-7f35-5337-80ed-b9752d34b503")
+	)
+	(symbol
+		(lib_id "cm4gw:PWR_+3V3_SW")
+		(at 196.85 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "18687b1b-a88c-5c21-95e7-a66f2c03ee83")
+		(property "Reference" "#PWR6023"
+			(at 196.85 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_SW"
+			(at 191.31 50.8 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ky hieu nguon: net toan cuc \\\"+3V3_SW\\\""
+			(at 196.85 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 196.85 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 196.85 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "#PWR6023")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "#PWR7023")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "#PWR8023")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "#PWR9023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 207.01 50.8)
+			(xy 209.55 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be51009a-2b1f-5bca-ad9d-ea73ecc1a17f")
+	)
+	(symbol
+		(lib_id "cm4gw:PWR_GND")
+		(at 209.55 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "963cc826-524a-55fd-bfd0-fb90bd2fd515")
+		(property "Reference" "#PWR6024"
+			(at 209.55 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.01 50.8 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ky hieu nguon: net toan cuc \\\"GND\\\""
+			(at 209.55 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 209.55 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 209.55 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "#PWR6024")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "#PWR7024")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "#PWR8024")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "#PWR9024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 203.2 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "77a18af3-fe0c-5d5e-b966-2a3c261cee4b")
+		(property "Reference" "C613"
+			(at 203.2 56.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "100nF"
+			(at 203.2 60.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 203.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF 16V X7R"
+			(at 203.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 203.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 203.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Group" "v33"
+			(at 203.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "C613")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "C713")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "C813")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "C913")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 199.39 58.42)
+			(xy 196.85 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bf53574-775c-5e49-8c76-7a0942df987d")
+	)
+	(symbol
+		(lib_id "cm4gw:PWR_+3V3_SW")
+		(at 196.85 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "472208f6-59e6-5ed0-a881-cc2c9847d920")
+		(property "Reference" "#PWR6025"
+			(at 196.85 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_SW"
+			(at 191.31 58.42 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ky hieu nguon: net toan cuc \\\"+3V3_SW\\\""
+			(at 196.85 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 196.85 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 196.85 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "#PWR6025")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "#PWR7025")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "#PWR8025")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "#PWR9025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 207.01 58.42)
+			(xy 209.55 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4fd3627-da15-5164-b02d-7fd8099740b2")
+	)
+	(symbol
+		(lib_id "cm4gw:PWR_GND")
+		(at 209.55 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "d853b6ce-faf1-525f-9b4c-278e0968a5ba")
+		(property "Reference" "#PWR6026"
+			(at 209.55 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.01 58.42 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ky hieu nguon: net toan cuc \\\"GND\\\""
+			(at 209.55 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 209.55 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 209.55 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "#PWR6026")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "#PWR7026")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "#PWR8026")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "#PWR9026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 203.2 157.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "561d3d26-631d-5264-b7f5-566fbb5d57cb")
+		(property "Reference" "TP601"
+			(at 204.2 156.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "V1P0"
+			(at 204.2 159.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 203.2 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 203.2 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 203.2 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 203.2 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Group" "strap"
+			(at 203.2 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "TP601")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "TP701")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "TP801")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "TP901")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 203.2 157.48)
+			(xy 205.74 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "689285a3-c238-51f1-aef4-8dfe5f6e2a1a")
+	)
+	(label "V1P0"
+		(at 205.74 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b333f973-28b4-5d9f-90ae-d1dcef6430ac")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 233.68 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c4e7db0-b273-559a-bee0-b04952f6668d")
+		(property "Reference" "#FLG601"
+			(at 234.68 167.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 234.68 169.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 233.68 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 233.68 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 233.68 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "#FLG601")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "#FLG701")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "#FLG801")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "#FLG901")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 233.68 167.64)
+			(xy 233.68 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e4c3760-ed3b-56b3-9b7a-7dd522849b2e")
+	)
+	(label "V1P0"
+		(at 233.68 170.18 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8642b05b-8f3f-50d8-9453-ee5ff2b8e7aa")
+	)
+	(text "LED mặc định (tích cực thấp): LED2 = link/act 1000M → LED xanh; LED1 = link/act 100M → LED vàng.\nISOLATEB kéo lên 3V3 (1k/15k): chip luôn nối bus. CLKREQB/LANWAKEB chỉ kéo lên (không dùng).\nRTL8111H dùng LDO nội 1.0 V (REGOUT) — không cấp rail này cho linh kiện khác."
+		(exclude_from_sim no)
+		(at 25.4 175.26 0)
+		(effects
+			(font
+				(size 1.3 1.3)
+			)
+			(justify left bottom)
+		)
+		(uuid "5930a8e2-9a58-5521-a8b4-27dcd193fdee")
+	)
+	(rectangle
+		(start 264.16 20.32)
+		(end 406.4 177.8)
+		(stroke
+			(width 0.15)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "eda19439-677e-5fac-b150-2876a26899b9")
+	)
+	(text "B. RJ45 — HR911130A"
+		(exclude_from_sim no)
+		(at 265.66 24.52 0)
+		(effects
+			(font
+				(size 2.2 2.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b3f7b26-e2b0-52c4-87f2-308aa9464a16")
+	)
+	(symbol
+		(lib_id "cm4gw:HR911130A")
+		(at 309.88 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "29b10ecf-126e-5b56-9edf-c7a621fb9022")
+		(property "Reference" "J601"
+			(at 299.72 47.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "HR911130A"
+			(at 299.72 77.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "cm4-gateway:RJ45_Hanrun_HR911130A_Horizontal"
+			(at 309.88 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 309.88 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RJ45 Gigabit co bien ap va LED"
+			(at 309.88 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C54408"
+			(at 309.88 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HR911130A"
+			(at 309.88 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Group" "jack"
+			(at 309.88 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "J601")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "J701")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "J801")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "J901")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 297.18 50.8)
+			(xy 294.64 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2b463ae-0eb9-5aed-9867-3cc0f6ced847")
+	)
+	(label "MDI0_P"
+		(at 294.64 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "da66b238-f3be-53ba-b5b3-38ce87b1378d")
+	)
+	(wire
+		(pts
+			(xy 297.18 53.34)
+			(xy 294.64 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7546388b-10c5-555c-a5b1-41d2a818b0ca")
+	)
+	(label "MDI0_N"
+		(at 294.64 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "be46cc5c-9d07-5de7-a4be-64c596ee9864")
+	)
+	(wire
+		(pts
+			(xy 297.18 55.88)
+			(xy 294.64 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7d06758-6f22-58a1-bb95-01318203699c")
+	)
+	(label "MDI1_P"
+		(at 294.64 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "56f47ad4-3852-5a34-8d18-68c2bbc81eb0")
+	)
+	(wire
+		(pts
+			(xy 297.18 58.42)
+			(xy 294.64 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1126b97c-b746-5193-8261-05fa44bba18d")
+	)
+	(label "MDI1_N"
+		(at 294.64 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "244cb494-66d4-5da5-88e0-a1f1e85d3f6f")
+	)
+	(wire
+		(pts
+			(xy 297.18 60.96)
+			(xy 294.64 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a61e076-e21c-5bac-ba55-45125662a3b3")
+	)
+	(label "MDI2_P"
+		(at 294.64 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6c95d788-f175-5599-9a59-33f88cca770d")
+	)
+	(wire
+		(pts
+			(xy 297.18 63.5)
+			(xy 294.64 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c0bc049-c567-5568-835d-1f0956e7d9db")
+	)
+	(label "MDI2_N"
+		(at 294.64 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5e0de2df-f755-5969-962b-84eac106c017")
+	)
+	(wire
+		(pts
+			(xy 297.18 66.04)
+			(xy 294.64 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7c578cc-1659-55d7-8327-615a76f0088c")
+	)
+	(label "MDI3_P"
+		(at 294.64 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8467f7c7-1602-5ca6-92e2-b818c4c3b953")
+	)
+	(wire
+		(pts
+			(xy 297.18 68.58)
+			(xy 294.64 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "819c5b8d-ccbb-5abe-99ee-b451b2929613")
+	)
+	(label "MDI3_N"
+		(at 294.64 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fc8712d2-ebb1-51df-b9a1-0185f3b8702f")
+	)
+	(wire
+		(pts
+			(xy 297.18 73.66)
+			(xy 294.64 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ba72345-d259-502f-bdd5-4f9201844d17")
+	)
+	(label "CT"
+		(at 294.64 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f6879679-6919-5596-a83c-a8c19d11f5b7")
+	)
+	(wire
+		(pts
+			(xy 322.58 50.8)
+			(xy 325.12 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76e08212-40f3-5aae-a2e9-e44f3a6d708c")
+	)
+	(label "LED_G_A"
+		(at 325.12 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2a55f4a-aeaf-56c1-b7da-ffa6475d685e")
+	)
+	(wire
+		(pts
+			(xy 322.58 53.34)
+			(xy 325.12 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb6d7230-b0d2-59d6-8d13-eebc6cd18dd0")
+	)
+	(label "LED_G_K"
+		(at 325.12 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "69d19bb3-fd8c-52f7-84f9-c5a943327e44")
+	)
+	(wire
+		(pts
+			(xy 322.58 58.42)
+			(xy 325.12 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d53985f-c041-58e2-a7ae-53d5e9f2641f")
+	)
+	(label "LED_Y_A"
+		(at 325.12 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1347f886-1318-5ac7-aa1d-980042cb9d04")
+	)
+	(wire
+		(pts
+			(xy 322.58 60.96)
+			(xy 325.12 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ba46774-c8ac-592a-b4ac-f7c11eedbd7f")
+	)
+	(label "LED_Y_K"
+		(at 325.12 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb6ffed4-558c-5cd8-9b5c-d9ed6d623b86")
+	)
+	(wire
+		(pts
+			(xy 322.58 66.04)
+			(xy 325.12 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db486297-9d81-586f-bc68-4e3415dee3f6")
+	)
+	(symbol
+		(lib_id "cm4gw:PWR_CHASSIS")
+		(at 325.12 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "da89e5b6-a513-5191-b9db-aad81f88d289")
+		(property "Reference" "#PWR6027"
+			(at 325.12 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CHASSIS"
+			(at 332.26 66.04 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 325.12 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 325.12 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ky hieu nguon: net toan cuc \\\"CHASSIS\\\""
+			(at 325.12 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 325.12 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 325.12 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "#PWR6027")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "#PWR7027")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "#PWR8027")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "#PWR9027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 322.58 68.58)
+			(xy 325.12 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66ceb455-c75a-5106-9693-d6f3d3bab620")
+	)
+	(symbol
+		(lib_id "cm4gw:PWR_CHASSIS")
+		(at 325.12 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6f214c6-7889-50f8-9af0-ff69d3db13a6")
+		(property "Reference" "#PWR6028"
+			(at 325.12 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CHASSIS"
+			(at 332.26 68.58 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 325.12 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 325.12 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ky hieu nguon: net toan cuc \\\"CHASSIS\\\""
+			(at 325.12 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 325.12 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 325.12 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "#PWR6028")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "#PWR7028")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "#PWR8028")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "#PWR9028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 381 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad2e361c-c4f3-5a6e-a297-e38261e0fe99")
+		(property "Reference" "R606"
+			(at 381 48.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "470R"
+			(at 381 53.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 381 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 381 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 381 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25117"
+			(at 381 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF4700TCE"
+			(at 381 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Group" "jack"
+			(at 381 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "R606")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "R706")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "R806")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "R906")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 377.19 50.8)
+			(xy 374.65 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b57ce27-1bbf-56cf-8311-60ba5c0f0fcd")
+	)
+	(symbol
+		(lib_id "cm4gw:PWR_+3V3_SW")
+		(at 374.65 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "c470c1e0-96cf-5cc8-9ade-0ccd701f5442")
+		(property "Reference" "#PWR6029"
+			(at 374.65 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_SW"
+			(at 369.11 50.8 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 374.65 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 374.65 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ky hieu nguon: net toan cuc \\\"+3V3_SW\\\""
+			(at 374.65 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 374.65 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 374.65 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "#PWR6029")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "#PWR7029")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "#PWR8029")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "#PWR9029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 384.81 50.8)
+			(xy 387.35 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a0aa89d-0277-546d-b81f-d1e95f234c2f")
+	)
+	(label "LED_G_A"
+		(at 387.35 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b2b09586-fbb0-5824-ab1e-8e0c123f2a95")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 381 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d44d4f7-4286-55ad-b170-589ebc18e159")
+		(property "Reference" "R607"
+			(at 381 56.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "470R"
+			(at 381 60.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 381 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 381 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 381 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25117"
+			(at 381 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF4700TCE"
+			(at 381 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Group" "jack"
+			(at 381 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "R607")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "R707")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "R807")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "R907")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 377.19 58.42)
+			(xy 374.65 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1667b3f-254a-589b-9b5b-5174ff51377c")
+	)
+	(symbol
+		(lib_id "cm4gw:PWR_+3V3_SW")
+		(at 374.65 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3622bda-02e4-562d-9ac4-64d17a794b01")
+		(property "Reference" "#PWR6030"
+			(at 374.65 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_SW"
+			(at 369.11 58.42 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 374.65 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 374.65 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ky hieu nguon: net toan cuc \\\"+3V3_SW\\\""
+			(at 374.65 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 374.65 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 374.65 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "#PWR6030")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "#PWR7030")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "#PWR8030")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "#PWR9030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 384.81 58.42)
+			(xy 387.35 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b2493ee-2fe6-5acb-bf6c-756ad544009f")
+	)
+	(label "LED_Y_A"
+		(at 387.35 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "266ad614-6d0e-53f6-92dc-d1372f6cf65d")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 381 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14995bab-5dd1-5712-8ebd-98f28c8d261e")
+		(property "Reference" "C614"
+			(at 381 63.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "100nF"
+			(at 381 68.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 381 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 381 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF 16V X7R"
+			(at 381 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 381 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 381 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Group" "jack"
+			(at 381 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "C614")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "C714")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "C814")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "C914")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 377.19 66.04)
+			(xy 374.65 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a074903-ff22-5842-be84-98397784f259")
+	)
+	(label "CT"
+		(at 374.65 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e629499b-c7ca-57c1-ae76-e8a3b454fa57")
+	)
+	(wire
+		(pts
+			(xy 384.81 66.04)
+			(xy 387.35 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26a47cbd-f641-54d7-a75a-989f3e16b66c")
+	)
+	(symbol
+		(lib_id "cm4gw:PWR_GND")
+		(at 387.35 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "595abcb9-fdb8-54c0-96f8-2aa41065877a")
+		(property "Reference" "#PWR6031"
+			(at 387.35 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 392.81 66.04 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 387.35 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 387.35 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ky hieu nguon: net toan cuc \\\"GND\\\""
+			(at 387.35 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 387.35 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 387.35 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a"
+					(reference "#PWR6031")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22"
+					(reference "#PWR7031")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1"
+					(reference "#PWR8031")
+					(unit 1)
+				)
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392"
+					(reference "#PWR9031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

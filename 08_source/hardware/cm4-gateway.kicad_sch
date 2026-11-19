@@ -1,0 +1,3079 @@
+(kicad_sch
+	(version 20260306)
+	(generator "cm4gw_gen")
+	(generator_version "10.0")
+	(uuid "604866f0-7bb4-52d7-9526-61c6cb999aaa")
+	(paper "A3")
+	(title_block
+		(title "CM4 Security Gateway — Carrier Board")
+		(date "2026-11-18")
+		(rev "B")
+		(company "cm4-gateway")
+		(comment 1 "CM4 Security Gateway — Carrier Board")
+	)
+	(lib_symbols)
+	(text "CM4 SECURITY GATEWAY — Rev B"
+		(exclude_from_sim no)
+		(at 50.8 35.56 0)
+		(effects
+			(font
+				(size 5 5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "a9f6fe41-9c63-53e2-9c0a-601766713550")
+	)
+	(text "1 WAN (PHY CM4) + 4 LAN (PCIe → 2× PI7C9X2G404SL → 4× RTL8111H) · TPM 2.0 · RTC · SRAM chống mở vỏ"
+		(exclude_from_sim no)
+		(at 50.8 48.26 0)
+		(effects
+			(font
+				(size 2.2 2.2)
+			)
+			(justify left bottom)
+		)
+		(uuid "9c447f3e-4c10-569d-bba7-381316ba1e0e")
+	)
+	(sheet
+		(at 35.56 71.12)
+		(size 66.04 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "f1a61f8b-7111-5d7c-82a8-a326deb0c47a")
+		(property "Sheetname" "Power"
+			(at 35.56 70.42 0)
+			(effects
+				(font
+					(size 1.5 1.5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 35.56 97.22 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 109.22)
+		(size 66.04 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "b9ba5a67-c866-539c-a9de-3b88ede953db")
+		(property "Sheetname" "CM4"
+			(at 35.56 108.52 0)
+			(effects
+				(font
+					(size 1.5 1.5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cm4.kicad_sch"
+			(at 35.56 135.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 147.32)
+		(size 66.04 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "089e168b-e660-5d84-b0e5-745222877109")
+		(property "Sheetname" "WAN"
+			(at 35.56 146.62 0)
+			(effects
+				(font
+					(size 1.5 1.5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "wan.kicad_sch"
+			(at 35.56 173.42 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 185.42)
+		(size 66.04 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "91a67943-06fd-55ed-8302-7c590d675939")
+		(property "Sheetname" "USB_Debug"
+			(at 35.56 184.72 0)
+			(effects
+				(font
+					(size 1.5 1.5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_debug.kicad_sch"
+			(at 35.56 211.52 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 223.52)
+		(size 66.04 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "93dc4341-f45d-5259-90ef-94fa1b61ab12")
+		(property "Sheetname" "Security"
+			(at 35.56 222.82 0)
+			(effects
+				(font
+					(size 1.5 1.5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "security.kicad_sch"
+			(at 35.56 249.62 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa"
+					(page "6")
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 167.64 73.66)
+			(xy 165.1 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c660731-ac8c-5b0f-9e61-a920f3308710")
+	)
+	(global_label "PCIE_TX_P"
+		(shape passive)
+		(at 165.1 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "441d68fb-b64d-5841-a859-6a35813a48db")
+	)
+	(wire
+		(pts
+			(xy 167.64 76.2)
+			(xy 165.1 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bef8b462-b862-534e-ad06-b1479613ae1e")
+	)
+	(global_label "PCIE_TX_N"
+		(shape passive)
+		(at 165.1 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "73941aee-bf90-5996-837d-972e3929f159")
+	)
+	(wire
+		(pts
+			(xy 167.64 78.74)
+			(xy 165.1 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d2adc4e-e18f-56de-b4b7-419e2da977c6")
+	)
+	(global_label "PCIE_RX_P"
+		(shape passive)
+		(at 165.1 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2acf73ed-634b-52c0-98cb-c05b0938e6de")
+	)
+	(wire
+		(pts
+			(xy 167.64 81.28)
+			(xy 165.1 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "805c3110-ade9-5b2e-82fb-4f603ef8b190")
+	)
+	(global_label "PCIE_RX_N"
+		(shape passive)
+		(at 165.1 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2d6aff75-10ed-5e33-a6af-06862a3e99b4")
+	)
+	(wire
+		(pts
+			(xy 167.64 83.82)
+			(xy 165.1 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e4ac13e-8b38-5526-ac20-3726bfb522d9")
+	)
+	(global_label "PCIE_CLK_P"
+		(shape passive)
+		(at 165.1 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c3e35215-628e-5923-8892-b05326513100")
+	)
+	(wire
+		(pts
+			(xy 167.64 86.36)
+			(xy 165.1 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08ad150e-559a-5874-956e-eae9cddb32ff")
+	)
+	(global_label "PCIE_CLK_N"
+		(shape passive)
+		(at 165.1 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3df62197-6456-53a3-a118-52df4edccf9a")
+	)
+	(wire
+		(pts
+			(xy 167.64 88.9)
+			(xy 165.1 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94161f28-cff8-5828-a5b8-7eb7fed322a7")
+	)
+	(global_label "PCIE_RST_N"
+		(shape passive)
+		(at 165.1 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "07c810c6-179a-5f63-8769-f6f9e9a68bac")
+	)
+	(wire
+		(pts
+			(xy 243.84 73.66)
+			(xy 246.38 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2634982a-e276-50d8-b04f-83b5b2b1d30b")
+	)
+	(global_label "P2_SW2NIC_P"
+		(shape passive)
+		(at 246.38 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "471a3216-6681-51e8-b688-dece4b4aecda")
+	)
+	(wire
+		(pts
+			(xy 243.84 76.2)
+			(xy 246.38 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25048662-65b6-5e39-bd81-b1482360412b")
+	)
+	(global_label "P2_SW2NIC_N"
+		(shape passive)
+		(at 246.38 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c54bc97a-8047-5b21-9dc8-6fb5e033ff4f")
+	)
+	(wire
+		(pts
+			(xy 243.84 78.74)
+			(xy 246.38 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "245b47d8-2f6a-5669-9c01-7708136ff4a4")
+	)
+	(global_label "P2_NIC2SW_P"
+		(shape passive)
+		(at 246.38 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e6e09ae0-7172-5fe5-b1f4-fde019052842")
+	)
+	(wire
+		(pts
+			(xy 243.84 81.28)
+			(xy 246.38 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc787eb4-095d-5b2b-b2d2-744bd94ecea0")
+	)
+	(global_label "P2_NIC2SW_N"
+		(shape passive)
+		(at 246.38 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ec6bbefd-46a9-5fca-a269-c48c1f8dc0da")
+	)
+	(wire
+		(pts
+			(xy 243.84 83.82)
+			(xy 246.38 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e82e135-7a71-5aae-8611-0ff6acb4f662")
+	)
+	(global_label "P1_SW2NIC_P"
+		(shape passive)
+		(at 246.38 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "45f9a842-b76d-52bc-9e66-45362b28fec3")
+	)
+	(wire
+		(pts
+			(xy 243.84 86.36)
+			(xy 246.38 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "361f47d7-5119-5199-bc16-f3fbaa0f6bf3")
+	)
+	(global_label "P1_SW2NIC_N"
+		(shape passive)
+		(at 246.38 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b3686aa6-9b0e-556e-b4b3-f528b09ad5bd")
+	)
+	(wire
+		(pts
+			(xy 243.84 88.9)
+			(xy 246.38 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0206feb0-8771-5184-989c-b04261b9082e")
+	)
+	(global_label "P1_NIC2SW_P"
+		(shape passive)
+		(at 246.38 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b4069fea-cae7-512b-b771-4396134587c0")
+	)
+	(wire
+		(pts
+			(xy 243.84 91.44)
+			(xy 246.38 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b699f8e-dfa7-52ea-9ff1-2f25e106b210")
+	)
+	(global_label "P1_NIC2SW_N"
+		(shape passive)
+		(at 246.38 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "11a669ee-3131-5d24-99cf-9e7e4d99ab0e")
+	)
+	(wire
+		(pts
+			(xy 243.84 93.98)
+			(xy 246.38 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfe7d6c1-93e7-598d-a426-fd5f916d1da1")
+	)
+	(global_label "X_SW1TO2_P"
+		(shape passive)
+		(at 246.38 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aaad5cc1-a58f-5585-976e-188ec972b841")
+	)
+	(wire
+		(pts
+			(xy 243.84 96.52)
+			(xy 246.38 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fece04ce-48ac-5baf-8db0-9535bd5d199b")
+	)
+	(global_label "X_SW1TO2_N"
+		(shape passive)
+		(at 246.38 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5f231537-5cd8-5985-b480-e093a4ae984c")
+	)
+	(wire
+		(pts
+			(xy 243.84 99.06)
+			(xy 246.38 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5e3c015-40b5-5434-b802-33d3c695cebe")
+	)
+	(global_label "X_SW2TO1_P"
+		(shape passive)
+		(at 246.38 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a3dea332-6da4-5867-8635-1b0ffe36af35")
+	)
+	(wire
+		(pts
+			(xy 243.84 101.6)
+			(xy 246.38 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba610547-ec25-5683-b0f8-2b26ca323e96")
+	)
+	(global_label "X_SW2TO1_N"
+		(shape passive)
+		(at 246.38 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "18103c47-5bc6-5e4b-b6f9-8877e560f249")
+	)
+	(wire
+		(pts
+			(xy 243.84 104.14)
+			(xy 246.38 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "948c8f19-2a68-56e2-ac32-2606fd38f7ab")
+	)
+	(global_label "P1_CLK_P"
+		(shape passive)
+		(at 246.38 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ff7219e1-5521-57e5-81cf-b08fd60402ee")
+	)
+	(wire
+		(pts
+			(xy 243.84 106.68)
+			(xy 246.38 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a06a78ad-d23c-58ff-94b3-31a284b3ebb2")
+	)
+	(global_label "P1_CLK_N"
+		(shape passive)
+		(at 246.38 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ab9597d6-b6ca-5ff0-a1d5-fa0ffd09ae29")
+	)
+	(wire
+		(pts
+			(xy 243.84 109.22)
+			(xy 246.38 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "136da5aa-30a2-5876-a7a0-77647d8baaca")
+	)
+	(global_label "P2_CLK_P"
+		(shape passive)
+		(at 246.38 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "da64493b-7818-5e78-8393-dfa260feb517")
+	)
+	(wire
+		(pts
+			(xy 243.84 111.76)
+			(xy 246.38 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e82d708e-1a34-5d5e-bac4-2ec5d1c91389")
+	)
+	(global_label "P2_CLK_N"
+		(shape passive)
+		(at 246.38 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "64e3df5f-f6b6-538f-8c64-0974b09befef")
+	)
+	(wire
+		(pts
+			(xy 243.84 114.3)
+			(xy 246.38 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76b541f7-5fbc-50c4-8894-3f6b4dceb49c")
+	)
+	(global_label "SW2_CLK_P"
+		(shape passive)
+		(at 246.38 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "63a8504b-3d90-53e1-bb88-d38707413815")
+	)
+	(wire
+		(pts
+			(xy 243.84 116.84)
+			(xy 246.38 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5dad37d-1670-5a09-99bb-ac42962f5549")
+	)
+	(global_label "SW2_CLK_N"
+		(shape passive)
+		(at 246.38 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ecd40dae-3627-5c7d-bf61-513e20fce4f7")
+	)
+	(wire
+		(pts
+			(xy 243.84 119.38)
+			(xy 246.38 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82fa144c-5413-57e4-973e-65752d6111d9")
+	)
+	(global_label "P2_RST_N"
+		(shape passive)
+		(at 246.38 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0394e094-0142-5128-a81e-1289fb015217")
+	)
+	(wire
+		(pts
+			(xy 243.84 121.92)
+			(xy 246.38 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6715078-92da-52fa-a360-ebe9debc965a")
+	)
+	(global_label "P1_RST_N"
+		(shape passive)
+		(at 246.38 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cba8b553-d115-5b62-9283-93b9319aa1ea")
+	)
+	(wire
+		(pts
+			(xy 243.84 124.46)
+			(xy 246.38 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f15ba71-9312-52e6-b7b2-49f567da0de7")
+	)
+	(global_label "SW2_RST_N"
+		(shape passive)
+		(at 246.38 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c85a97d8-ae30-564e-8a2b-d78626052b38")
+	)
+	(sheet
+		(at 167.64 71.12)
+		(size 76.2 60.96)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "9e359fb8-8afb-5c7a-ac7f-1e47ae9d81e8")
+		(property "Sheetname" "SW1"
+			(at 167.64 70.42 0)
+			(effects
+				(font
+					(size 1.5 1.5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pcie_switch.kicad_sch"
+			(at 167.64 132.78 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "UP_RX_P" passive
+			(at 167.64 73.66 180)
+			(uuid "8e803ce6-024f-5fb6-b299-2337ca43bcf8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UP_RX_N" passive
+			(at 167.64 76.2 180)
+			(uuid "68cb1cb2-f1c9-5777-a58e-4330997299ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UP_TX_P" passive
+			(at 167.64 78.74 180)
+			(uuid "04ba4806-a3c3-5199-bcb3-f4691d8a98e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UP_TX_N" passive
+			(at 167.64 81.28 180)
+			(uuid "0f558cb3-f0fa-5d45-b426-e4b2b1d6ca31")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CLKIN_P" passive
+			(at 167.64 83.82 180)
+			(uuid "1d36c930-5eb9-5996-ae53-b1e5a6e1617b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CLKIN_N" passive
+			(at 167.64 86.36 180)
+			(uuid "b55fe15a-b290-5be2-be59-5302c88b3fdc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PERST_N" passive
+			(at 167.64 88.9 180)
+			(uuid "b5a70d1e-7023-52af-8d46-6ef0c7c1bc5b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DN1_TX_P" passive
+			(at 243.84 73.66 0)
+			(uuid "1a57772c-7822-5e41-a1f1-98c6cc51bd5f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DN1_TX_N" passive
+			(at 243.84 76.2 0)
+			(uuid "cb9894df-f254-51be-b70a-b4700c55b37e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DN1_RX_P" passive
+			(at 243.84 78.74 0)
+			(uuid "ef06f640-e1e8-50c3-b606-159cf8ac0ff8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DN1_RX_N" passive
+			(at 243.84 81.28 0)
+			(uuid "d0b1af32-2235-54e9-875d-bca6300b92be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DN2_TX_P" passive
+			(at 243.84 83.82 0)
+			(uuid "56455fff-7ab1-53b2-bdec-a80be28df03c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DN2_TX_N" passive
+			(at 243.84 86.36 0)
+			(uuid "d5ba440a-1717-59ac-9c38-c5ba040448ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DN2_RX_P" passive
+			(at 243.84 88.9 0)
+			(uuid "cb3c4a4d-ba50-5833-aad7-77cd631d1ae2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DN2_RX_N" passive
+			(at 243.84 91.44 0)
+			(uuid "33f0c34f-44cc-57ee-b9c1-e7cc6dd13f10")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DN3_TX_P" passive
+			(at 243.84 93.98 0)
+			(uuid "7c6b6abd-97f2-5f40-8c36-4e717ed33ceb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DN3_TX_N" passive
+			(at 243.84 96.52 0)
+			(uuid "a891478c-2c8a-5684-98c2-76c68a078009")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DN3_RX_P" passive
+			(at 243.84 99.06 0)
+			(uuid "22faf286-ce64-54e1-abd2-1834a684020b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DN3_RX_N" passive
+			(at 243.84 101.6 0)
+			(uuid "6aded727-5e7a-5e3a-b922-777be29d93eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLK1_P" passive
+			(at 243.84 104.14 0)
+			(uuid "e824aad5-d472-51ca-9707-b15727693328")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLK1_N" passive
+			(at 243.84 106.68 0)
+			(uuid "6b2491ab-af6b-5e8b-bb1d-8fddbed513d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLK2_P" passive
+			(at 243.84 109.22 0)
+			(uuid "678cee5f-0d07-57af-98d5-0aab109ca91b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLK2_N" passive
+			(at 243.84 111.76 0)
+			(uuid "6fd2d157-d706-538d-9c77-8021f514d2ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLK3_P" passive
+			(at 243.84 114.3 0)
+			(uuid "4812eeb0-5114-55e0-8b22-075141a99bed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLK3_N" passive
+			(at 243.84 116.84 0)
+			(uuid "57d4e3a8-ae60-51a1-b086-407e6f7eacfa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DNRST1_N" passive
+			(at 243.84 119.38 0)
+			(uuid "8d7e4085-44ad-55b4-88d3-29f5ce625c26")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DNRST2_N" passive
+			(at 243.84 121.92 0)
+			(uuid "bf0e4aa2-d8b2-5af8-ad98-3205d16d6c39")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DNRST3_N" passive
+			(at 243.84 124.46 0)
+			(uuid "29a01d55-6837-5c95-999e-b5989637f31a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa"
+					(page "7")
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 167.64 154.94)
+			(xy 165.1 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f5fb51d-5d73-53cf-bc78-bc665a43f783")
+	)
+	(global_label "X_SW1TO2_P"
+		(shape passive)
+		(at 165.1 154.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "829fd1ae-4ae7-52a3-b18b-9f3851ce31ce")
+	)
+	(wire
+		(pts
+			(xy 167.64 157.48)
+			(xy 165.1 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72b9683e-f5bd-5c56-8cc8-3ea2f7be2f56")
+	)
+	(global_label "X_SW1TO2_N"
+		(shape passive)
+		(at 165.1 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e3e5dc49-9064-5e89-95c3-19165b428f86")
+	)
+	(wire
+		(pts
+			(xy 167.64 160.02)
+			(xy 165.1 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "badb101b-2687-5c10-b9fb-071a2652cc6d")
+	)
+	(global_label "X_SW2TO1_P"
+		(shape passive)
+		(at 165.1 160.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d5597cf7-6b61-590c-9852-c5199d03d1d3")
+	)
+	(wire
+		(pts
+			(xy 167.64 162.56)
+			(xy 165.1 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6343358-abcf-53c7-bc0e-962c83e6dfeb")
+	)
+	(global_label "X_SW2TO1_N"
+		(shape passive)
+		(at 165.1 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "460b2dbf-3443-5c15-ac29-7e0f47dbe3ad")
+	)
+	(wire
+		(pts
+			(xy 167.64 165.1)
+			(xy 165.1 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8a6caeb-0b84-5c3b-8ef2-895306b9d3be")
+	)
+	(global_label "SW2_CLK_P"
+		(shape passive)
+		(at 165.1 165.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "38067b81-00d4-5a14-9297-34d727d4ed12")
+	)
+	(wire
+		(pts
+			(xy 167.64 167.64)
+			(xy 165.1 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be15413e-ee36-55a9-9a82-65f4fd51ea85")
+	)
+	(global_label "SW2_CLK_N"
+		(shape passive)
+		(at 165.1 167.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f04a92cc-d2c1-5f62-906f-dc00965a066c")
+	)
+	(wire
+		(pts
+			(xy 167.64 170.18)
+			(xy 165.1 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc9ae5fd-e018-5275-b3af-4b1183cb566e")
+	)
+	(global_label "SW2_RST_N"
+		(shape passive)
+		(at 165.1 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5214a275-d821-586a-a4af-3c390c7d33ba")
+	)
+	(wire
+		(pts
+			(xy 243.84 154.94)
+			(xy 246.38 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "546f1d31-4a37-5487-a9e0-141a6b7655ae")
+	)
+	(global_label "P4_SW2NIC_P"
+		(shape passive)
+		(at 246.38 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e449851a-c2b3-5bd1-9fa0-4ac123aa262d")
+	)
+	(wire
+		(pts
+			(xy 243.84 157.48)
+			(xy 246.38 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c0de9f8-5916-51d3-8d80-7151c511889b")
+	)
+	(global_label "P4_SW2NIC_N"
+		(shape passive)
+		(at 246.38 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eab1c771-c473-5174-aee6-1d9c9bc603e2")
+	)
+	(wire
+		(pts
+			(xy 243.84 160.02)
+			(xy 246.38 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebe32f06-3c0b-5b92-b905-7daa1aa215cc")
+	)
+	(global_label "P4_NIC2SW_P"
+		(shape passive)
+		(at 246.38 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f3a410d2-8035-5d86-8539-977e9bf8a700")
+	)
+	(wire
+		(pts
+			(xy 243.84 162.56)
+			(xy 246.38 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e41724f-6baa-592d-a261-d62232129767")
+	)
+	(global_label "P4_NIC2SW_N"
+		(shape passive)
+		(at 246.38 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d60ce3c4-61cb-55b8-a4fa-891b9f3ebeba")
+	)
+	(wire
+		(pts
+			(xy 243.84 165.1)
+			(xy 246.38 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef49905f-96ea-5703-a996-d13e970a3549")
+	)
+	(global_label "P3_SW2NIC_P"
+		(shape passive)
+		(at 246.38 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6c16e1c4-c5f9-5cf8-a11c-b4619ea041be")
+	)
+	(wire
+		(pts
+			(xy 243.84 167.64)
+			(xy 246.38 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f923a13a-7956-5fd2-9407-612f9618599b")
+	)
+	(global_label "P3_SW2NIC_N"
+		(shape passive)
+		(at 246.38 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "38e16be6-ef33-566d-a43f-4102c6dc34e9")
+	)
+	(wire
+		(pts
+			(xy 243.84 170.18)
+			(xy 246.38 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52b3f96b-7137-5055-aba0-63fca845b73c")
+	)
+	(global_label "P3_NIC2SW_P"
+		(shape passive)
+		(at 246.38 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "50d7b911-ae39-5023-b848-32307f6306dd")
+	)
+	(wire
+		(pts
+			(xy 243.84 172.72)
+			(xy 246.38 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e1967e9-148e-57d3-9b27-a48f1ad20085")
+	)
+	(global_label "P3_NIC2SW_N"
+		(shape passive)
+		(at 246.38 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c83ffe40-e6f5-51cb-8bba-2006ce0bd31c")
+	)
+	(no_connect
+		(at 243.84 175.26)
+		(uuid "304c3d79-da21-5d0c-bdf5-dc536d8fa7cd")
+	)
+	(no_connect
+		(at 243.84 177.8)
+		(uuid "75f9d25f-d8c8-5002-aea9-2913e2b422c3")
+	)
+	(no_connect
+		(at 243.84 180.34)
+		(uuid "855e37ba-e1b1-5fd3-9ce8-58733567383d")
+	)
+	(no_connect
+		(at 243.84 182.88)
+		(uuid "583c62bf-909a-5926-9b3f-1c6567bf2e2c")
+	)
+	(wire
+		(pts
+			(xy 243.84 185.42)
+			(xy 246.38 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb59c1e5-32ac-596f-8df1-96334ce2b628")
+	)
+	(global_label "P3_CLK_P"
+		(shape passive)
+		(at 246.38 185.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fcc7aca2-540d-57a9-bf3f-4890e543f1d4")
+	)
+	(wire
+		(pts
+			(xy 243.84 187.96)
+			(xy 246.38 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e734f2c-53a3-5195-9ed3-2b8d7ceaa5de")
+	)
+	(global_label "P3_CLK_N"
+		(shape passive)
+		(at 246.38 187.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6639112c-672d-5b17-ab13-69b750a38de0")
+	)
+	(wire
+		(pts
+			(xy 243.84 190.5)
+			(xy 246.38 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b717f029-c1b1-5f97-a62a-716bba817461")
+	)
+	(global_label "P4_CLK_P"
+		(shape passive)
+		(at 246.38 190.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3dbef143-ad1f-561a-82a8-128b90664642")
+	)
+	(wire
+		(pts
+			(xy 243.84 193.04)
+			(xy 246.38 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa877748-a1e7-5248-a2ee-b206290fc4a0")
+	)
+	(global_label "P4_CLK_N"
+		(shape passive)
+		(at 246.38 193.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "46f32c46-ad05-5b85-847e-e6d00ab81c18")
+	)
+	(no_connect
+		(at 243.84 195.58)
+		(uuid "178c2951-02bb-57b0-bf56-46e850d18fc1")
+	)
+	(no_connect
+		(at 243.84 198.12)
+		(uuid "0c45ad31-2098-5a59-85c1-ef798a6007b2")
+	)
+	(wire
+		(pts
+			(xy 243.84 200.66)
+			(xy 246.38 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbec8ba4-4db0-5a85-bf61-5053d7574cad")
+	)
+	(global_label "P4_RST_N"
+		(shape passive)
+		(at 246.38 200.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "99c6db15-85f5-5875-a661-32333146474b")
+	)
+	(wire
+		(pts
+			(xy 243.84 203.2)
+			(xy 246.38 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec24c617-8960-558e-8083-4fb7972c2561")
+	)
+	(global_label "P3_RST_N"
+		(shape passive)
+		(at 246.38 203.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9797675d-bfe0-588e-85e3-24c119cc2aa3")
+	)
+	(no_connect
+		(at 243.84 205.74)
+		(uuid "d738f5e1-932a-5112-8bff-9a3f72c12702")
+	)
+	(sheet
+		(at 167.64 152.4)
+		(size 76.2 60.96)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "ecc09be4-852b-5ebd-b768-ce1ce7c098b6")
+		(property "Sheetname" "SW2"
+			(at 167.64 151.7 0)
+			(effects
+				(font
+					(size 1.5 1.5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pcie_switch.kicad_sch"
+			(at 167.64 214.06 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "UP_RX_P" passive
+			(at 167.64 154.94 180)
+			(uuid "041c840b-31a2-5c8d-8458-aee4c31a470f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UP_RX_N" passive
+			(at 167.64 157.48 180)
+			(uuid "bd469894-9278-5284-9008-68652a8e9e34")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UP_TX_P" passive
+			(at 167.64 160.02 180)
+			(uuid "94ba89a4-756b-52bb-b970-0148b3cc1440")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UP_TX_N" passive
+			(at 167.64 162.56 180)
+			(uuid "7f77de9b-9048-57ab-8722-5fb2f9aa6194")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CLKIN_P" passive
+			(at 167.64 165.1 180)
+			(uuid "9b690d46-8373-5d88-9da7-90d7448a73bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CLKIN_N" passive
+			(at 167.64 167.64 180)
+			(uuid "f1218e17-74ca-595e-894f-d5e70d9b069c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PERST_N" passive
+			(at 167.64 170.18 180)
+			(uuid "68356521-c435-5714-8f76-e0828fe2e048")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DN1_TX_P" passive
+			(at 243.84 154.94 0)
+			(uuid "47cc267b-580a-55a4-943b-39a1d5765655")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DN1_TX_N" passive
+			(at 243.84 157.48 0)
+			(uuid "d631fcd3-14ee-53ec-ab5d-44e954f2fafb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DN1_RX_P" passive
+			(at 243.84 160.02 0)
+			(uuid "1b42b597-75f6-5657-8171-1ef539105a53")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DN1_RX_N" passive
+			(at 243.84 162.56 0)
+			(uuid "85210fc5-38e5-58b8-b875-082d8da9a032")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DN2_TX_P" passive
+			(at 243.84 165.1 0)
+			(uuid "140a9961-b252-561f-9d7c-8e5f56a9b7d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DN2_TX_N" passive
+			(at 243.84 167.64 0)
+			(uuid "eae144a6-67c1-53c2-b0e4-055d9616efda")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DN2_RX_P" passive
+			(at 243.84 170.18 0)
+			(uuid "998584ec-8ea0-5aee-9cb1-43c25aa418ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DN2_RX_N" passive
+			(at 243.84 172.72 0)
+			(uuid "581b34ee-d102-59ea-9023-0891abc2d8bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DN3_TX_P" passive
+			(at 243.84 175.26 0)
+			(uuid "dae7e0a9-c5f2-5e46-97c5-ad18bd473cd8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DN3_TX_N" passive
+			(at 243.84 177.8 0)
+			(uuid "0a729d1a-ee6c-52d6-8c6a-0a0e74ed9809")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DN3_RX_P" passive
+			(at 243.84 180.34 0)
+			(uuid "b9523055-bd9e-519f-a758-d152ea69a84e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DN3_RX_N" passive
+			(at 243.84 182.88 0)
+			(uuid "7f9528e5-e0b6-5eaa-9f93-4855052d6fc6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLK1_P" passive
+			(at 243.84 185.42 0)
+			(uuid "88b2dc62-e628-58b1-ae0c-975ef04a8608")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLK1_N" passive
+			(at 243.84 187.96 0)
+			(uuid "33f61b37-2b33-5f3b-a560-ba257a862d20")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLK2_P" passive
+			(at 243.84 190.5 0)
+			(uuid "1fe239bb-0c70-50d8-a6d6-c7ef6c88305b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLK2_N" passive
+			(at 243.84 193.04 0)
+			(uuid "9a2f2cb4-782e-5604-a7e0-fe1a999b8965")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLK3_P" passive
+			(at 243.84 195.58 0)
+			(uuid "df22ef56-d3da-540a-a2b2-915c128c7bd0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLK3_N" passive
+			(at 243.84 198.12 0)
+			(uuid "20286693-808d-58d2-b8ee-ac6d4b20aaaf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DNRST1_N" passive
+			(at 243.84 200.66 0)
+			(uuid "1406cc4f-6a2f-5a64-893e-a534a91227e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DNRST2_N" passive
+			(at 243.84 203.2 0)
+			(uuid "9f6fee3b-a5b5-53ea-b93e-fbe35958351d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DNRST3_N" passive
+			(at 243.84 205.74 0)
+			(uuid "4811faed-f750-5323-8c02-39ca3139eb3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa"
+					(page "8")
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 325.12 73.66)
+			(xy 322.58 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af5f6234-86d1-508a-b14c-25ec20c2daa3")
+	)
+	(global_label "P1_SW2NIC_P"
+		(shape passive)
+		(at 322.58 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1d8f7b50-03cf-5a58-911c-d8ac431546d3")
+	)
+	(wire
+		(pts
+			(xy 325.12 76.2)
+			(xy 322.58 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "136ceb9a-7542-57ed-9eab-ebd2376a2a1f")
+	)
+	(global_label "P1_SW2NIC_N"
+		(shape passive)
+		(at 322.58 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5582d976-ee03-5e53-91ac-e6acd2605f3f")
+	)
+	(wire
+		(pts
+			(xy 325.12 78.74)
+			(xy 322.58 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78e98b6d-93f0-5a8e-8ee4-5020001f491a")
+	)
+	(global_label "P1_NIC2SW_P"
+		(shape passive)
+		(at 322.58 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3f75b42c-aea6-55b8-a036-cad63833e883")
+	)
+	(wire
+		(pts
+			(xy 325.12 81.28)
+			(xy 322.58 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a71dba38-3eba-58d8-9688-77138c1ed939")
+	)
+	(global_label "P1_NIC2SW_N"
+		(shape passive)
+		(at 322.58 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4d9c7832-fc62-518e-ba0b-24157aab08e5")
+	)
+	(wire
+		(pts
+			(xy 325.12 83.82)
+			(xy 322.58 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67474964-b4b5-5b33-b133-7ba081b2fa23")
+	)
+	(global_label "P1_CLK_P"
+		(shape passive)
+		(at 322.58 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d18dffd2-28b8-5279-884f-9336882e93f7")
+	)
+	(wire
+		(pts
+			(xy 325.12 86.36)
+			(xy 322.58 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67b1687f-579b-5320-ac1c-13b5b4e418d8")
+	)
+	(global_label "P1_CLK_N"
+		(shape passive)
+		(at 322.58 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aace4594-71d8-5163-87e6-77e511f0d6e1")
+	)
+	(wire
+		(pts
+			(xy 325.12 88.9)
+			(xy 322.58 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0543faf2-025f-5200-9f17-f17779c02201")
+	)
+	(global_label "P1_RST_N"
+		(shape passive)
+		(at 322.58 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ae6d8811-50e0-5197-9b94-3c38372b2d98")
+	)
+	(sheet
+		(at 325.12 71.12)
+		(size 60.96 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "04890e8f-878c-564a-a2fe-75657eee583a")
+		(property "Sheetname" "LAN1"
+			(at 325.12 70.42 0)
+			(effects
+				(font
+					(size 1.5 1.5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "lan_nic.kicad_sch"
+			(at 325.12 97.22 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RX_P" passive
+			(at 325.12 73.66 180)
+			(uuid "673e81fd-457f-5c0b-8906-3c1250d67ebb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RX_N" passive
+			(at 325.12 76.2 180)
+			(uuid "d2425b9b-3e82-519e-9a9e-36b2fac28713")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TX_P" passive
+			(at 325.12 78.74 180)
+			(uuid "97be4654-86c8-572c-a70b-1ed645751fbf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TX_N" passive
+			(at 325.12 81.28 180)
+			(uuid "b300cda1-8aed-5af9-bcc5-03e52fcc92b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CLK_P" passive
+			(at 325.12 83.82 180)
+			(uuid "05fedb87-a48b-5fd5-8121-ce2a8ece9b30")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CLK_N" passive
+			(at 325.12 86.36 180)
+			(uuid "c9bb2de8-10cc-5e01-befa-74964eacf423")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PERST_N" passive
+			(at 325.12 88.9 180)
+			(uuid "d5205cb1-2378-50ec-9ca2-5f3dcf7789d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa"
+					(page "9")
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 325.12 109.22)
+			(xy 322.58 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34528a41-2d11-5f7a-97a2-c1c2a566b89b")
+	)
+	(global_label "P2_SW2NIC_P"
+		(shape passive)
+		(at 322.58 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "67958b48-b0c3-5225-9891-eee44a35f3cd")
+	)
+	(wire
+		(pts
+			(xy 325.12 111.76)
+			(xy 322.58 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "943bcf23-2908-5239-93ae-3a1c9f66c06c")
+	)
+	(global_label "P2_SW2NIC_N"
+		(shape passive)
+		(at 322.58 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3950af04-5f6e-5843-9e30-eb825b18c0e8")
+	)
+	(wire
+		(pts
+			(xy 325.12 114.3)
+			(xy 322.58 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ad210ad-1398-582d-a356-b35ecb3798f6")
+	)
+	(global_label "P2_NIC2SW_P"
+		(shape passive)
+		(at 322.58 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e1844b1d-b93f-508b-8316-f1fd7df5d622")
+	)
+	(wire
+		(pts
+			(xy 325.12 116.84)
+			(xy 322.58 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd6c8724-5277-5d0a-b2f0-02108da85cf2")
+	)
+	(global_label "P2_NIC2SW_N"
+		(shape passive)
+		(at 322.58 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "538e7674-6f58-5df9-b972-e8d8f2de4175")
+	)
+	(wire
+		(pts
+			(xy 325.12 119.38)
+			(xy 322.58 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c47d489-a2c4-53e6-a8ac-78bc489c60b5")
+	)
+	(global_label "P2_CLK_P"
+		(shape passive)
+		(at 322.58 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5db3403b-e946-5ed9-963f-db1c86ec2bce")
+	)
+	(wire
+		(pts
+			(xy 325.12 121.92)
+			(xy 322.58 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d555feae-a6ff-5281-b36d-ac26121f1c52")
+	)
+	(global_label "P2_CLK_N"
+		(shape passive)
+		(at 322.58 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0ab1dfd4-1c95-53b3-aa58-e2eb0d7f500c")
+	)
+	(wire
+		(pts
+			(xy 325.12 124.46)
+			(xy 322.58 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cc47cb7-add6-54a4-be75-41d1c82f2bd0")
+	)
+	(global_label "P2_RST_N"
+		(shape passive)
+		(at 322.58 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0f838582-4982-5452-bb41-552254721184")
+	)
+	(sheet
+		(at 325.12 106.68)
+		(size 60.96 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "b4b1bd04-6ab8-5607-a3e0-65e846e8dc22")
+		(property "Sheetname" "LAN2"
+			(at 325.12 105.98 0)
+			(effects
+				(font
+					(size 1.5 1.5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "lan_nic.kicad_sch"
+			(at 325.12 132.78 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RX_P" passive
+			(at 325.12 109.22 180)
+			(uuid "4da18b73-4774-5f23-9daa-4fac6da18ad1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RX_N" passive
+			(at 325.12 111.76 180)
+			(uuid "b8f79106-3677-5dee-ab7a-74e3935c5e14")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TX_P" passive
+			(at 325.12 114.3 180)
+			(uuid "f88d5c0d-3b87-5ce0-9d89-34f947830990")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TX_N" passive
+			(at 325.12 116.84 180)
+			(uuid "62b92417-3ad7-5273-8c55-a455eb340b50")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CLK_P" passive
+			(at 325.12 119.38 180)
+			(uuid "dd4f05c9-c533-5d4f-8153-6b662f679c53")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CLK_N" passive
+			(at 325.12 121.92 180)
+			(uuid "54ea91de-95c0-56f9-8427-0510ad2a9eeb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PERST_N" passive
+			(at 325.12 124.46 180)
+			(uuid "99694af2-a655-574d-9d48-80a1c500046c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa"
+					(page "10")
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 325.12 144.78)
+			(xy 322.58 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "114626de-11f8-5eea-b15e-9966aaabe3f1")
+	)
+	(global_label "P3_SW2NIC_P"
+		(shape passive)
+		(at 322.58 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d3bca3e4-ba84-55c0-8d81-8de8acb504b2")
+	)
+	(wire
+		(pts
+			(xy 325.12 147.32)
+			(xy 322.58 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "564f1490-37c7-5b5a-9505-26a9e7e73bef")
+	)
+	(global_label "P3_SW2NIC_N"
+		(shape passive)
+		(at 322.58 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "65b63fae-4ad3-561e-9153-d4b7d775cbf5")
+	)
+	(wire
+		(pts
+			(xy 325.12 149.86)
+			(xy 322.58 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1522ed26-6e2a-5f49-9836-41dfefb4c79f")
+	)
+	(global_label "P3_NIC2SW_P"
+		(shape passive)
+		(at 322.58 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d9c2dcfa-4e0b-5ca6-b4c2-8f79523e53d9")
+	)
+	(wire
+		(pts
+			(xy 325.12 152.4)
+			(xy 322.58 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5b107ca-2a87-55c1-a337-c1d3e5813dd6")
+	)
+	(global_label "P3_NIC2SW_N"
+		(shape passive)
+		(at 322.58 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c01f75d5-e271-5383-b9ff-7499b868ab51")
+	)
+	(wire
+		(pts
+			(xy 325.12 154.94)
+			(xy 322.58 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbd1d023-c650-5b33-aaa7-bef5605a1709")
+	)
+	(global_label "P3_CLK_P"
+		(shape passive)
+		(at 322.58 154.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "674f89e5-e7e2-577f-82e4-69538a77478e")
+	)
+	(wire
+		(pts
+			(xy 325.12 157.48)
+			(xy 322.58 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d8978b6-55f1-58c9-877a-2fa1f3572ced")
+	)
+	(global_label "P3_CLK_N"
+		(shape passive)
+		(at 322.58 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "84fd9065-8ce1-5330-ab87-227ddc6025c4")
+	)
+	(wire
+		(pts
+			(xy 325.12 160.02)
+			(xy 322.58 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19bd879a-5e75-5779-968b-a475e4d7b2d9")
+	)
+	(global_label "P3_RST_N"
+		(shape passive)
+		(at 322.58 160.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "33e16040-5c02-5bea-9b07-33ebc2c08461")
+	)
+	(sheet
+		(at 325.12 142.24)
+		(size 60.96 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "3d95b8c4-9a8d-5809-81c9-da49a5059ff1")
+		(property "Sheetname" "LAN3"
+			(at 325.12 141.54 0)
+			(effects
+				(font
+					(size 1.5 1.5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "lan_nic.kicad_sch"
+			(at 325.12 168.34 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RX_P" passive
+			(at 325.12 144.78 180)
+			(uuid "60bf361e-917d-5285-8705-c5f81fac4204")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RX_N" passive
+			(at 325.12 147.32 180)
+			(uuid "3d30937e-3271-5d06-a10f-f35a672b988f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TX_P" passive
+			(at 325.12 149.86 180)
+			(uuid "46723f20-89f1-5d54-9ea9-b470692e6b18")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TX_N" passive
+			(at 325.12 152.4 180)
+			(uuid "9cbda44f-caa8-5ec6-bb2f-6f0412daa7d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CLK_P" passive
+			(at 325.12 154.94 180)
+			(uuid "1ff5718a-fc8d-5727-af20-a16e8b072373")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CLK_N" passive
+			(at 325.12 157.48 180)
+			(uuid "771b890f-c4e6-53a4-8e86-fb948049f732")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PERST_N" passive
+			(at 325.12 160.02 180)
+			(uuid "0a752530-7f24-5cdd-b490-83cb758158c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa"
+					(page "11")
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 325.12 180.34)
+			(xy 322.58 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7afdbb6-3a36-54f9-b5a1-a4fb231fb048")
+	)
+	(global_label "P4_SW2NIC_P"
+		(shape passive)
+		(at 322.58 180.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a1dbb2c8-5602-5823-adea-7df955829ef8")
+	)
+	(wire
+		(pts
+			(xy 325.12 182.88)
+			(xy 322.58 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a6461d6-e3ce-541b-9d57-74e79dae9876")
+	)
+	(global_label "P4_SW2NIC_N"
+		(shape passive)
+		(at 322.58 182.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6e29bc89-61c5-59db-abfc-a35ec96309f4")
+	)
+	(wire
+		(pts
+			(xy 325.12 185.42)
+			(xy 322.58 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa2ecda5-2604-5fa8-b6dc-ed4a5d8266ec")
+	)
+	(global_label "P4_NIC2SW_P"
+		(shape passive)
+		(at 322.58 185.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "727c8792-d1fa-5dc2-a13c-0f31bdff7409")
+	)
+	(wire
+		(pts
+			(xy 325.12 187.96)
+			(xy 322.58 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23164bea-e7fb-507b-952b-2ba9dbafb11f")
+	)
+	(global_label "P4_NIC2SW_N"
+		(shape passive)
+		(at 322.58 187.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5eea28ca-07c7-5e5e-a300-a06c5c7a11ac")
+	)
+	(wire
+		(pts
+			(xy 325.12 190.5)
+			(xy 322.58 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e98d3da1-d53d-5140-abe3-b99320cb3df3")
+	)
+	(global_label "P4_CLK_P"
+		(shape passive)
+		(at 322.58 190.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5bff351b-e895-5f17-b4e7-b158c37ec0a3")
+	)
+	(wire
+		(pts
+			(xy 325.12 193.04)
+			(xy 322.58 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85a1990d-9827-5952-b644-3a7c0bf7efd7")
+	)
+	(global_label "P4_CLK_N"
+		(shape passive)
+		(at 322.58 193.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "21787cb3-0b5d-5c0e-886b-15ed7e16ca37")
+	)
+	(wire
+		(pts
+			(xy 325.12 195.58)
+			(xy 322.58 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ffcf1e1-8d2f-5075-a14c-09ac4afe760a")
+	)
+	(global_label "P4_RST_N"
+		(shape passive)
+		(at 322.58 195.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e6612c64-3eb7-5de2-be6b-9c25c98eb58d")
+	)
+	(sheet
+		(at 325.12 177.8)
+		(size 60.96 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "62b0b34b-086a-5b95-9b53-4468aef72392")
+		(property "Sheetname" "LAN4"
+			(at 325.12 177.1 0)
+			(effects
+				(font
+					(size 1.5 1.5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "lan_nic.kicad_sch"
+			(at 325.12 203.9 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RX_P" passive
+			(at 325.12 180.34 180)
+			(uuid "c870bc81-59b9-5263-b672-09f5801981d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RX_N" passive
+			(at 325.12 182.88 180)
+			(uuid "324b6dd0-d579-5b0a-a194-a922a9dfdf89")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TX_P" passive
+			(at 325.12 185.42 180)
+			(uuid "64b9f839-5206-55d6-8337-a7153a8b12a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TX_N" passive
+			(at 325.12 187.96 180)
+			(uuid "08d6edd4-4992-58ae-923e-cc3fe1f040ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CLK_P" passive
+			(at 325.12 190.5 180)
+			(uuid "8e1d9bdd-da84-5f05-9894-8656de888947")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CLK_N" passive
+			(at 325.12 193.04 180)
+			(uuid "0d3a5c9a-070f-50ca-b8f7-6752ba2abd57")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PERST_N" passive
+			(at 325.12 195.58 180)
+			(uuid "49b977fa-63fa-5aad-9d60-8c8511f9081c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "cm4-gateway"
+				(path "/604866f0-7bb4-52d7-9526-61c6cb999aaa"
+					(page "12")
+				)
+			)
+		)
+	)
+	(text "Cây PCIe:  CM4 → SW1 → {LAN1, LAN2, SW2};  SW2 → {LAN3, LAN4, cổng 3 dự phòng (để hở)}"
+		(exclude_from_sim no)
+		(at 35.56 264.16 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+			)
+			(justify left bottom)
+		)
+		(uuid "c05273d6-2bdb-5453-802d-aceb49781600")
+	)
+	(text "ĐẢO CỰC: mọi đầu thu PCIe (switch PERP/PERN, NIC HSIP/HSIN, CM4 PCIe_RX) nối chéo P<->N có chủ đích (clock không đảo)\nđể cặp vi sai không phải bắt chéo trên PCB (PCIe tự nhận đảo cực ở đầu thu).\nQuy ước tên net:  Pk_SW2NIC = switch phát → NIC thu;  Pk_NIC2SW = NIC phát → switch thu;\nX_SW1TO2 / X_SW2TO1 = liên kết giữa hai switch.  Tụ AC luôn nằm ở phía phát."
+		(exclude_from_sim no)
+		(at 35.56 276.86 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "b4d8f818-7b63-5864-b41a-f81503df91dc")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

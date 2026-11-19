@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "cm4gw")(type "KiCad")(uri "${KIPRJMOD}/lib/cm4-gateway.kicad_sym")(options "")(descr "Symbol rieng cua du an"))
+)
