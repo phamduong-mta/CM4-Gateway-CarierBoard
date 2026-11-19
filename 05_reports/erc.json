@@ -1,0 +1,92 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-19T14:30:38",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/604866f0-7bb4-52d7-9526-61c6cb999aaa",
+            "violations": []
+        },
+        {
+            "path": "/Power/",
+            "uuid_path": "/604866f0-7bb4-52d7-9526-61c6cb999aaa/f1a61f8b-7111-5d7c-82a8-a326deb0c47a",
+            "violations": []
+        },
+        {
+            "path": "/CM4/",
+            "uuid_path": "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b9ba5a67-c866-539c-a9de-3b88ede953db",
+            "violations": []
+        },
+        {
+            "path": "/WAN/",
+            "uuid_path": "/604866f0-7bb4-52d7-9526-61c6cb999aaa/089e168b-e660-5d84-b0e5-745222877109",
+            "violations": []
+        },
+        {
+            "path": "/USB_Debug/",
+            "uuid_path": "/604866f0-7bb4-52d7-9526-61c6cb999aaa/91a67943-06fd-55ed-8302-7c590d675939",
+            "violations": []
+        },
+        {
+            "path": "/Security/",
+            "uuid_path": "/604866f0-7bb4-52d7-9526-61c6cb999aaa/93dc4341-f45d-5259-90ef-94fa1b61ab12",
+            "violations": []
+        },
+        {
+            "path": "/SW1/",
+            "uuid_path": "/604866f0-7bb4-52d7-9526-61c6cb999aaa/9e359fb8-8afb-5c7a-ac7f-1e47ae9d81e8",
+            "violations": []
+        },
+        {
+            "path": "/SW2/",
+            "uuid_path": "/604866f0-7bb4-52d7-9526-61c6cb999aaa/ecc09be4-852b-5ebd-b768-ce1ce7c098b6",
+            "violations": []
+        },
+        {
+            "path": "/LAN1/",
+            "uuid_path": "/604866f0-7bb4-52d7-9526-61c6cb999aaa/04890e8f-878c-564a-a2fe-75657eee583a",
+            "violations": []
+        },
+        {
+            "path": "/LAN2/",
+            "uuid_path": "/604866f0-7bb4-52d7-9526-61c6cb999aaa/b4b1bd04-6ab8-5607-a3e0-65e846e8dc22",
+            "violations": []
+        },
+        {
+            "path": "/LAN3/",
+            "uuid_path": "/604866f0-7bb4-52d7-9526-61c6cb999aaa/3d95b8c4-9a8d-5809-81c9-da49a5059ff1",
+            "violations": []
+        },
+        {
+            "path": "/LAN4/",
+            "uuid_path": "/604866f0-7bb4-52d7-9526-61c6cb999aaa/62b0b34b-086a-5b95-9b53-4468aef72392",
+            "violations": []
+        }
+    ],
+    "source": "cm4-gateway.kicad_sch"
+}

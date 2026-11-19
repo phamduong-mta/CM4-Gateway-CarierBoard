@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="820" viewBox="0 0 1500 820">
+<rect x="0" y="0" width="1500" height="820" fill="#ffffff"/>
+<text x="750.00" y="38.00" font-family="DejaVu Sans" font-size="26.0" text-anchor="middle" font-weight="bold" fill="#111">Cây nguồn — CM4 Security Gateway Rev A</text>
+<rect x="30.00" y="330.00" width="170.00" height="80.00" rx="8.0" fill="#e9e9e9" stroke="#234" stroke-width="2.00" fill-opacity="1.00"/>
+<text x="115.00" y="359.00" font-family="DejaVu Sans" font-size="17.0" text-anchor="middle" font-weight="bold" fill="#111">Adapter 12 V</text>
+<text x="115.00" y="378.00" font-family="DejaVu Sans" font-size="13.0" text-anchor="middle" font-weight="normal" fill="#333">khuyến nghị 12 V / 3 A</text>
+<text x="115.00" y="397.00" font-family="DejaVu Sans" font-size="13.0" text-anchor="middle" font-weight="normal" fill="#333">dải vào 9–24 V</text>
+<rect x="240.00" y="330.00" width="190.00" height="80.00" rx="8.0" fill="#ffe9c7" stroke="#234" stroke-width="2.00" fill-opacity="1.00"/>
+<text x="335.00" y="359.00" font-family="DejaVu Sans" font-size="17.0" text-anchor="middle" font-weight="bold" fill="#111">Bảo vệ</text>
+<text x="335.00" y="378.00" font-family="DejaVu Sans" font-size="13.0" text-anchor="middle" font-weight="normal" fill="#333">F101 4 A · Q101 P-FET</text>
+<text x="335.00" y="397.00" font-family="DejaVu Sans" font-size="13.0" text-anchor="middle" font-weight="normal" fill="#333">D102 TVS 24 V</text>
+<rect x="480.00" y="330.00" width="200.00" height="80.00" rx="8.0" fill="#ffe9c7" stroke="#234" stroke-width="2.00" fill-opacity="1.00"/>
+<text x="580.00" y="359.00" font-family="DejaVu Sans" font-size="17.0" text-anchor="middle" font-weight="bold" fill="#111">U101 TPS54560B</text>
+<text x="580.00" y="378.00" font-family="DejaVu Sans" font-size="13.0" text-anchor="middle" font-weight="normal" fill="#333">12 V → +5V</text>
+<text x="580.00" y="397.00" font-family="DejaVu Sans" font-size="13.0" text-anchor="middle" font-weight="normal" fill="#333">5 A · 400 kHz · η≈90 %</text>
+<polyline points="200.0,370.0 240.0,370.0" fill="none" stroke="#c77700" stroke-width="2.5"/>
+<polygon points="240.0,370.0 230.8,373.9 230.8,366.1" fill="#c77700"/>
+<text x="220.00" y="363.00" font-family="DejaVu Sans" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#c77700">+12V_JACK</text>
+<polyline points="430.0,370.0 480.0,370.0" fill="none" stroke="#c77700" stroke-width="2.5"/>
+<polygon points="480.0,370.0 470.8,373.9 470.8,366.1" fill="#c77700"/>
+<text x="455.00" y="363.00" font-family="DejaVu Sans" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#c77700">+12V</text>
+<text x="580.00" y="430.00" font-family="DejaVu Sans" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#a33">tải tối đa ước tính 4.3 A</text>
+<polyline points="680.0,370.0 730.0,370.0" fill="none" stroke="#c77700" stroke-width="3.0"/>
+<polyline points="730.0,145.0 730.0,705.0" fill="none" stroke="#c77700" stroke-width="3.0"/>
+<text x="705.00" y="360.00" font-family="DejaVu Sans" font-size="13.0" text-anchor="middle" font-weight="normal" fill="#c77700">+5V</text>
+<rect x="780.00" y="110.00" width="210.00" height="70.00" rx="8.0" fill="#d9f2d9" stroke="#234" stroke-width="2.00" fill-opacity="1.00"/>
+<text x="885.00" y="134.00" font-family="DejaVu Sans" font-size="17.0" text-anchor="middle" font-weight="bold" fill="#111">CM4 (+5V vào)</text>
+<text x="885.00" y="153.00" font-family="DejaVu Sans" font-size="13.0" text-anchor="middle" font-weight="normal" fill="#333">điển hình 1.4 A</text>
+<text x="885.00" y="172.00" font-family="DejaVu Sans" font-size="13.0" text-anchor="middle" font-weight="normal" fill="#333">tối đa ~1.8 A</text>
+<polyline points="730.0,145.0 780.0,145.0" fill="none" stroke="#c77700" stroke-width="2.5"/>
+<polygon points="780.0,145.0 770.8,148.9 770.8,141.1" fill="#c77700"/>
+<rect x="780.00" y="250.00" width="210.00" height="70.00" rx="8.0" fill="#fde0ec" stroke="#234" stroke-width="2.00" fill-opacity="1.00"/>
+<text x="885.00" y="274.00" font-family="DejaVu Sans" font-size="17.0" text-anchor="middle" font-weight="bold" fill="#111">U1003 TPS2553</text>
+<text x="885.00" y="293.00" font-family="DejaVu Sans" font-size="13.0" text-anchor="middle" font-weight="normal" fill="#333">USB-A VBUS</text>
+<text x="885.00" y="312.00" font-family="DejaVu Sans" font-size="13.0" text-anchor="middle" font-weight="normal" fill="#333">giới hạn ~1.2 A</text>
+<polyline points="730.0,285.0 780.0,285.0" fill="none" stroke="#c77700" stroke-width="2.5"/>
+<polygon points="780.0,285.0 770.8,288.9 770.8,281.1" fill="#c77700"/>
+<rect x="780.00" y="390.00" width="210.00" height="70.00" rx="8.0" fill="#ffe9c7" stroke="#234" stroke-width="2.00" fill-opacity="1.00"/>
+<text x="885.00" y="414.00" font-family="DejaVu Sans" font-size="17.0" text-anchor="middle" font-weight="bold" fill="#111">U102 TPS563201</text>
+<text x="885.00" y="433.00" font-family="DejaVu Sans" font-size="13.0" text-anchor="middle" font-weight="normal" fill="#333">+5V → +3V3_SW</text>
+<text x="885.00" y="452.00" font-family="DejaVu Sans" font-size="13.0" text-anchor="middle" font-weight="normal" fill="#333">3 A · EN = PERIPH_EN</text>
+<polyline points="730.0,425.0 780.0,425.0" fill="none" stroke="#c77700" stroke-width="2.5"/>
+<polygon points="780.0,425.0 770.8,428.9 770.8,421.1" fill="#c77700"/>
+<rect x="780.00" y="530.00" width="210.00" height="70.00" rx="8.0" fill="#ffe9c7" stroke="#234" stroke-width="2.00" fill-opacity="1.00"/>
+<text x="885.00" y="554.00" font-family="DejaVu Sans" font-size="17.0" text-anchor="middle" font-weight="bold" fill="#111">U103 TPS563201</text>
+<text x="885.00" y="573.00" font-family="DejaVu Sans" font-size="13.0" text-anchor="middle" font-weight="normal" fill="#333">+5V → +1V0</text>
+<text x="885.00" y="592.00" font-family="DejaVu Sans" font-size="13.0" text-anchor="middle" font-weight="normal" fill="#333">3 A · EN = PERIPH_EN</text>
+<polyline points="730.0,565.0 780.0,565.0" fill="none" stroke="#c77700" stroke-width="2.5"/>
+<polygon points="780.0,565.0 770.8,568.9 770.8,561.1" fill="#c77700"/>
+<rect x="780.00" y="670.00" width="210.00" height="70.00" rx="8.0" fill="#e9e9e9" stroke="#234" stroke-width="2.00" fill-opacity="1.00"/>
+<text x="885.00" y="702.50" font-family="DejaVu Sans" font-size="17.0" text-anchor="middle" font-weight="bold" fill="#111">Quạt 5 V (tùy chọn)</text>
+<text x="885.00" y="721.50" font-family="DejaVu Sans" font-size="13.0" text-anchor="middle" font-weight="normal" fill="#333">≤ 0.2 A · PWM GPIO18</text>
+<polyline points="730.0,705.0 780.0,705.0" fill="none" stroke="#c77700" stroke-width="2.5"/>
+<polygon points="780.0,705.0 770.8,708.9 770.8,701.1" fill="#c77700"/>
+<rect x="1060.00" y="60.00" width="400.00" height="150.00" rx="8.0" fill="#f3fbf3" stroke="#234" stroke-width="2.00" fill-opacity="1.00"/>
+<text x="1260.00" y="141.00" font-family="DejaVu Sans" font-size="17.0" text-anchor="middle" font-weight="bold" fill="#111"></text>
+<text x="1260.00" y="85.00" font-family="DejaVu Sans" font-size="15.0" text-anchor="middle" font-weight="bold" fill="#111">+3V3 do CM4 cấp ra (≤ 600 mA)</text>
+<text x="1260.00" y="110.00" font-family="DejaVu Sans" font-size="13.0" text-anchor="middle" font-weight="normal" fill="#222">TPM SLB9670 (~25 mA) · CH340C (~10 mA)</text>
+<text x="1260.00" y="131.00" font-family="DejaVu Sans" font-size="13.0" text-anchor="middle" font-weight="normal" fill="#222">FSUSB42 · LED · điện trở kéo</text>
+<text x="1260.00" y="152.00" font-family="DejaVu Sans" font-size="13.0" text-anchor="middle" font-weight="normal" fill="#222">SRAM 23LCV1024 (VCC qua Q1102)</text>
+<text x="1260.00" y="173.00" font-family="DejaVu Sans" font-size="13.0" text-anchor="middle" font-weight="normal" fill="#222">PERIPH_EN → bật U102, U103</text>
+<text x="1260.00" y="194.00" font-family="DejaVu Sans" font-size="13.0" text-anchor="middle" font-weight="normal" fill="#222">V_KEEP = OR(+3V3, pin) → RTC, nhánh tamper</text>
+<polyline points="990.0,135.0 1060.0,135.0" fill="none" stroke="#2a7a2a" stroke-width="2.5"/>
+<polygon points="1060.0,135.0 1050.8,138.9 1050.8,131.1" fill="#2a7a2a"/>
+<text x="1025.00" y="128.00" font-family="DejaVu Sans" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#2a7a2a">+3V3</text>
+<rect x="1060.00" y="370.00" width="400.00" height="100.00" rx="8.0" fill="#f5f9ff" stroke="#234" stroke-width="2.00" fill-opacity="1.00"/>
+<text x="1260.00" y="426.00" font-family="DejaVu Sans" font-size="17.0" text-anchor="middle" font-weight="bold" fill="#111"></text>
+<text x="1260.00" y="395.00" font-family="DejaVu Sans" font-size="15.0" text-anchor="middle" font-weight="bold" fill="#111">+3V3_SW (tải tối đa ~1.3 A)</text>
+<text x="1260.00" y="418.00" font-family="DejaVu Sans" font-size="13.0" text-anchor="middle" font-weight="normal" fill="#111">4× RTL8111H: ~0.25 A mỗi chip (LDO nội → 1.0 V)</text>
+<text x="1260.00" y="439.00" font-family="DejaVu Sans" font-size="13.0" text-anchor="middle" font-weight="normal" fill="#111">2× PI7C9X2G404SL: VDDR/CVDDR/AVDDH ~0.12 A mỗi chip</text>
+<text x="1260.00" y="460.00" font-family="DejaVu Sans" font-size="13.0" text-anchor="middle" font-weight="normal" fill="#111">LED RJ45 LAN</text>
+<polyline points="990.0,425.0 1060.0,425.0" fill="none" stroke="#c77700" stroke-width="2.5"/>
+<polygon points="1060.0,425.0 1050.8,428.9 1050.8,421.1" fill="#c77700"/>
+<rect x="1060.00" y="520.00" width="400.00" height="90.00" rx="8.0" fill="#f7f3ff" stroke="#234" stroke-width="2.00" fill-opacity="1.00"/>
+<text x="1260.00" y="571.00" font-family="DejaVu Sans" font-size="17.0" text-anchor="middle" font-weight="bold" fill="#111"></text>
+<text x="1260.00" y="545.00" font-family="DejaVu Sans" font-size="15.0" text-anchor="middle" font-weight="bold" fill="#111">+1V0 (tải tối đa ~1.35 A)</text>
+<text x="1260.00" y="568.00" font-family="DejaVu Sans" font-size="13.0" text-anchor="middle" font-weight="normal" fill="#111">2× PI7C9X2G404SL: VDDC + AVDD + VDDCAUX</text>
+<text x="1260.00" y="589.00" font-family="DejaVu Sans" font-size="13.0" text-anchor="middle" font-weight="normal" fill="#111">điển hình 0.27 A, tối đa 0.68 A mỗi chip</text>
+<polyline points="990.0,565.0 1060.0,565.0" fill="none" stroke="#c77700" stroke-width="2.5"/>
+<polygon points="1060.0,565.0 1050.8,568.9 1050.8,561.1" fill="#c77700"/>
+<rect x="1060.00" y="680.00" width="190.00" height="70.00" rx="8.0" fill="#e9e9e9" stroke="#234" stroke-width="2.00" fill-opacity="1.00"/>
+<text x="1155.00" y="704.00" font-family="DejaVu Sans" font-size="17.0" text-anchor="middle" font-weight="bold" fill="#111">Pin CR2032</text>
+<text x="1155.00" y="723.00" font-family="DejaVu Sans" font-size="13.0" text-anchor="middle" font-weight="normal" fill="#333">≈ 2 µA khi rút điện</text>
+<text x="1155.00" y="742.00" font-family="DejaVu Sans" font-size="13.0" text-anchor="middle" font-weight="normal" fill="#333">> 10 năm</text>
+<rect x="1290.00" y="680.00" width="170.00" height="70.00" rx="8.0" fill="#fff5b8" stroke="#234" stroke-width="2.00" fill-opacity="1.00"/>
+<text x="1375.00" y="712.50" font-family="DejaVu Sans" font-size="17.0" text-anchor="middle" font-weight="bold" fill="#111">RTC + SRAM VBAT</text>
+<text x="1375.00" y="731.50" font-family="DejaVu Sans" font-size="13.0" text-anchor="middle" font-weight="normal" fill="#333">rail V_KEEP / V_SW</text>
+<polyline points="1250.0,715.0 1290.0,715.0" fill="none" stroke="#c77700" stroke-width="2.5"/>
+<polygon points="1290.0,715.0 1280.8,718.9 1280.8,711.1" fill="#c77700"/>
+<rect x="30.00" y="560.00" width="650.00" height="220.00" rx="8.0" fill="#fafafa" stroke="#999" stroke-width="1.00" fill-opacity="1.00"/>
+<text x="50.00" y="588.00" font-family="DejaVu Sans" font-size="16.0" text-anchor="start" font-weight="bold" fill="#111">Trình tự cấp nguồn</text>
+<text x="50.00" y="615.00" font-family="DejaVu Sans" font-size="13.5" text-anchor="start" font-weight="normal" fill="#222">1. Cắm 12 V → U101 khởi động khi Vin > 7.9 V (UVLO) → +5V</text>
+<text x="50.00" y="638.00" font-family="DejaVu Sans" font-size="13.5" text-anchor="start" font-weight="normal" fill="#222">2. CM4 tự khởi động: +3V3 → +1V8 → RUN_PG</text>
+<text x="50.00" y="661.00" font-family="DejaVu Sans" font-size="13.5" text-anchor="start" font-weight="normal" fill="#222">3. +3V3 của CM4 kéo PERIPH_EN → U102 (+3V3_SW) và U103 (+1V0) cùng lên</text>
+<text x="50.00" y="684.00" font-family="DejaVu Sans" font-size="13.5" text-anchor="start" font-weight="normal" fill="#222">4. CM4 nhả PCIe_nRST khi kernel khởi tạo PCIe (>100 ms sau khi nguồn ổn định)</text>
+<text x="50.00" y="707.00" font-family="DejaVu Sans" font-size="13.5" text-anchor="start" font-weight="normal" fill="#222">5. SW1 nhả DWNRST# → NIC1, NIC2, SW2 → SW2 nhả reset cho NIC3, NIC4</text>
+<text x="50.00" y="730.00" font-family="DejaVu Sans" font-size="13.5" text-anchor="start" font-weight="normal" fill="#222">Khi CM4 tắt (GLOBAL_EN thấp): +3V3 mất → toàn bộ rail ngoại vi tắt theo</text>
+<text x="50.00" y="753.00" font-family="DejaVu Sans" font-size="13.5" text-anchor="start" font-weight="normal" fill="#a33">⇒ không chân nào của CM4 bị cấp điện trước +5V (yêu cầu datasheet CM4 §5.1)</text>
+<text x="40.00" y="110.00" font-family="DejaVu Sans" font-size="16.0" text-anchor="start" font-weight="bold" fill="#111">Ngân sách phía 12 V</text>
+<text x="40.00" y="136.00" font-family="DejaVu Sans" font-size="13.5" text-anchor="start" font-weight="normal" fill="#111">Tải +5V tối đa: 1.8 + 1.2 + 0.95 + 0.32 + 0.2 ≈ 4.5 A</text>
+<text x="40.00" y="158.00" font-family="DejaVu Sans" font-size="13.5" text-anchor="start" font-weight="normal" fill="#111">→ 22.5 W / 0.90 ≈ 25 W ≈ 2.1 A @ 12 V</text>
+<text x="40.00" y="180.00" font-family="DejaVu Sans" font-size="13.5" text-anchor="start" font-weight="normal" fill="#111">Điển hình (không USB, không quạt): ~12 W ≈ 1.0 A</text>
+<text x="40.00" y="202.00" font-family="DejaVu Sans" font-size="13.5" text-anchor="start" font-weight="normal" fill="#111">Adapter: tối thiểu 12 V/2 A, khuyến nghị 12 V/3 A</text>
+</svg>
